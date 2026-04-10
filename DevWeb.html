@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Desarrollo Web</title>
+  <meta name="description" content="Servicio de desarrollo de Sitios Web de QNecesitas">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta name="robots">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="css/desarrollo_web_style.css">
+
+  <meta name="theme-color" content="#fafafa">
+
+</head>
+
+
+<body>
+
+<!--Navigation bar superior------------------------------------------------------------------------->
+<nav>
+  <div>
+    <img src="icon.png" alt="Logo de la empresa">
+    <h2 class="nav_titulo">Desarrollo web</h2>
+  </div>
+  <div>
+    <a class="nav_web" href="index.html">Inicio</a>
+    <button class="btnOpenAndroid">Android</button>
+    <button class="btnOpenWeb">Web</button>
+    <button class="btnOpenPc">PC</button>
+    <a href="index.html#inicio_diseno">Dise&ntilde;o</a>
+    <a href="technicalLanguage.html">Lenguaje t&eacute;cnico</a>
+  </div>
+  <img class="nav_bar_icon" type="button"
+       data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavigation"
+       src="img/menu_mobile.svg" aria-controls="offcanvasNavigation">
+</nav>
+
+
+<!--Navigation Bar Cell-->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavigation" aria-labelledby="offcanvasNavigationLabel">
+  <div class="offcanvas-header">
+    <img class="nav_logo" src="icon.png" alt="Logo de la empresa">
+    <h4>QNecesitas</h4>
+    <img type="button" class="my_btn-close" data-bs-dismiss="offcanvas" aria-label="Close" src="img/close_mobile.svg">
+  </div>
+  <hr/>
+  <div class="offcanvas-body">
+    <ul class="ul-offc">
+      <li class="li-first-canvas"><a class="nav_web" href="index.html">Inicio</a></li>
+      <li class="btnOpenAndroid"><button>Android</button></li>
+      <li class="btnOpenWeb"><button>Web</button></li>
+      <li class="btnOpenPc"><button>PC</button></li>
+      <li><a href="index.html#inicio_diseno">Dise&ntilde;o</a></li>
+      <li><a href="technicalLanguage.html">Lenguaje t&eacute;cnico</a></li>
+    </ul>
+    <div class="navigationBar_socialMedia">
+      <img class="nav_icon" src="img/faceb_icon.svg" alt="Facebook icon" onclick="location.href='https://www.facebook.com/qnecesitas.paginaprincipal'">
+      <img class="nav_icon" src="img/wapp_icon.svg" alt="WhatsApp icon" onclick="location.href='https://api.whatsapp.com/send?phone=55759386'">
+      <img class="nav_icon" src="img/mail_icon.svg" alt="Email icon" onclick="location.href='mailto:qnecesitas.desarrollo@gmail.com'">
+      <img class="nav_icon" src="img/call_icon.svg" alt="Call icon" onclick="location.href='tel:+5355759386'">
+      <img class="nav_icon" src="./img/instagramwhite.svg" alt="intsgramIcon" onclick="location.href='https://instagram.com/qnecesitas_?igshi=OGQ5ZDc2ODk2ZA=='">
+    </div>
+  </div>
+</div>
+
+
+
+<!--Header------------------------------------------------------------------------------------------->
+<header id="header">
+  <div>
+    <h1>"Si tu negocio no est&aacute; en Internet <br> tu negocio no existe"</h1>
+    <h2>Bill Gates</h2>
+  </div>
+</header>
+
+
+<!--Index------------------------------------------------------------------------>
+<section class="index">
+    <div>
+      <h2>En esta secci&oacute;n</h2>
+      <ul>
+        <li><a href="#devWeb_imp">&iquest;Por qu&eacute; usted necesitar&iacute;a un Sitio Web?</a></li>
+        <li><a href="#devWeb_wrk">&iquest;C&oacute;mo funciona un Sitio Web?</a></li>
+        <li><a href="#devWeb_prec">Sobre nuestros precios</a></li>
+      </ul>
+    </div>
+</section>
+
+
+
+
+
+<!--Importance-->
+<section id="devWeb_imp" class="sectImport">
+  <h2>&iquest;Por qu&eacute; usted necesitar&iacute;a un Sitio Web?</h2>
+  <div class="sectImport_cardsZone">
+    <div>
+      <img src="img/icon_start.svg" alt="Icono de prestigio">
+      <h3>Prestigio</h3>
+      <p>Aumenta la reputaci&oacute;n de su empresa</p>
+    </div>
+    <div>
+      <img src="img/icon_cases.svg" alt="Icono de confianza">
+      <h3>Confianza</h3>
+      <p>Aumenta el nivel de confianza de los consumidores hacia su empresa</p>
+    </div>
+    <div>
+      <img src="img/icon_trending.svg" alt="Icono de crecimiento">
+      <h3>Crecimiento</h3>
+      <p>Incrementa las ventas, productividad y valor del negocio en el mercado</p>
+    </div>
+    <div>
+      <img src="img/icon_barcode.svg" alt="Icono de alcance">
+      <h3>Alcance</h3>
+      <p> Coloca informaci&oacute;n, im&aacute;genes y formas de contacto de la organizaci&oacute;n al alcance de los clientes</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+  <!--How work-->
+  <section class="sectExplain">
+
+    <div id="devWeb_wrk" class="sectExplain_Card">
+      <h2>&iquest;C&oacute;mo funciona un Sitio Web?</h2>
+      <div>
+        <img src="img/img_engranajes1.png" alt="Funcionamiento">
+        <p>Una p&aacute;gina web muestra informaci&oacute;n en internet sobre un tema particular con la ayuda de im&aacute;genes,
+          enlaces o audiovisuales. Un sitio web en cambio es la uni&oacute;n de varias p&aacute;ginas web.
+          Por lo general para evitar la sobrecarga de informaci&oacute;n, un sitio web consta de 2 o m&aacute;s p&aacute;ginas web.
+          Un ejemplo de sitio web cl&aacute;sico es este que est&aacute; viendo, que posee cinco p&aacute;ginas
+          entre las que puede navegar: la p&aacute;gina de inicio, la p&aacute;gina que explica las aplicaciones Android, las aplicaciones de escritorio, como trabajamos con lenguaje t&eacute;cnico  y esta p&aacute;gina que explica el servicio de p&aacute;ginas web.
+        </p>
+      </div>
+    </div>
+
+    <div id="devWeb_prec" class="sectExplain_Card">
+      <h2>Sobre nuestros precios</h2>
+      <div>
+        <img src="img/img_dinero1.png" alt="Dinero">
+        <p>Nuestro sistema est&aacute; basado en prestar un servicio profesional con precios econ&oacute;micos, al final de esta p&aacute;gina se ve el coste de las aplicaciones que hemos realizado, con lo que podr&aacute; hacerse una idea de por donde rondan los precios. El coste de un sitio web se puede calcular sabiendo la cantidad de p&aacute;ginas web que se desean tener.
+        </p>
+      </div>
+    
+
+    <div class="radio-inputs">
+      <label class="radio" id="btnSbusiness">
+        <input type="radio" name="radio" checked="">
+        <span class="name name1">Negocio pequeño</span>
+      </label>
+      <label class="radio" id="btnCompany">
+        <input type="radio" name="radio">
+        <span class="name">Empresa</span>
+      </label>
+          
+      <label class="radio" id="btnFbusiness">
+        <input type="radio" name="radio">
+        <span class="name">Negocio extanjero</span>
+      </label>
+    </div>
+
+    <div id="smallBusiness">
+      <div class="notification" >
+        <h2 class="notititle">Negocio pequeño</h2>
+        <p class="notibody">Una aplicaci&oacute;n Web est&aacute; compuesta de varias p&aacute;ginas entre las que se navega. La cantidad de p&aacute;ginas a realizar depende de la complejidad de dicha aplicaci&oacute;n y se le aclara a nuestros clientes antes de empezar un proyecto, acordando as&iacute; un precio total pues cada pantalla tiene un coste de <strong>3000 CUP</strong>. </strong></p>
+      </div>
+    </div> 
+
+    <div id="company" style="display: none;">
+      <div class="notification" >
+          <h2 class="notititle"> Empresa</h2>
+          <p class="notibody">Una aplicaci&oacute;n Web est&aacute; compuesta de varias p&aacute;ginas entre las que se navega. La cantidad de p&aacute;ginas a realizar depende de la complejidad de dicha aplicaci&oacute;n y se le aclara a nuestros clientes antes de empezar un proyecto, acordando as&iacute; un precio total pues cada pantalla tiene un coste de <strong>5000 CUP</strong>. </strong></p>
+        </div>
+    </div> 
+
+    <div id="foreignBusiness" style="display: none;">
+      <div class="notification" >
+          <h2 class="notititle">Negocio extranjero</h2>
+          <p class="notibody">Una aplicaci&oacute;n Web est&aacute; compuesta de varias p&aacute;ginas entre las que se navega. La cantidad de p&aacute;ginas a realizar depende de la complejidad de dicha aplicaci&oacute;n y se le aclara a nuestros clientes antes de empezar un proyecto, acordando as&iacute; un precio total pues cada pantalla tiene un coste de <strong>100 USD</strong>. </strong></p>
+        </div> 
+    </div>
+</div>
+
+  </section>
+
+   <!--Trabajos finalizados-->
+   <section class="sectTrabFinalizados">
+    <h2>Algunos de nuestros trabajos</h2>
+    <p>Los precios que se muestran a continuaci&oacute;n se basan en la escala actual de precios de las aplicaciones. Estos se ajustan a la categor&iacute;a seleccionada, ya sea peque&ntilde;o negocio, empresa o negocio extranjero. En funci&oacute;n del r&aacute;pido desarrollo tecnol&oacute;gico y de los constantes cambios en los requisitos del mercado de aplicaciones empresariales, estos precios ir&aacute;n actualiz&aacute;ndose.</p>
+
+    <div class="radio-inputs">
+      <label class="radio" id="price-pnWeb">
+        <input type="radio" name="radio" checked="">
+        <span class="name name2">Negocio pequeño</span>
+      </label>
+      <label class="radio" id="price-eWeb">
+        <input type="radio" name="radio">
+        <span class="name">Empresa</span>
+      </label>
+          
+      <label class="radio" id="price-neWeb">
+        <input type="radio" name="radio">
+        <span class="name">Negocio extanjero</span>
+      </label>
+    </div>
+    <div class="sectTrabFinalizados_cardsZone">
+
+      <div class="sectTrabFinalizados_card">
+        <div class="sectTrabFinalizados_card_imgs">
+          <img src="img/web6.png" alt="foto de proyecto"/>
+          <img src="img/web6a.png" alt="foto de proyecto"/>
+        </div>
+        <p>"Willie Paella" p&aacute;gina web creada para este negocio que se destaca por su excelencia culinaria, cuentan con servicio de delivery o tambi&eacute;n puedes sumergirte en una experiencia gastron&oacute;mica memorable en tus eventos con sus servicios especializados.</p>
+        <h4>Precio: <span id="WPPrecio">15000</span> <span class="tipoMoneda">CUP</span></h4>
+        <h4>Cantidad de p&aacute;ginas: <span id="WP">5</span></h4>
+        <h4>Pa&iacute;s: Estados Unidos</h4>
+        <button onclick="window.location.href='https://williepaella.com/'">Ir al sitio</button>
+      </div>
+      
+      <div class="sectTrabFinalizados_card">
+
+        <div class="sectTrabFinalizados_card_imgs">
+          <img src="img/web5.jpg" alt="foto de proyecto"/>
+          <img src="img/web5a.jpg" alt="foto de proyecto"/>
+        </div>
+        <p>Sitio web creado para RN Contractor LLC, expertos en p&eacute;rgolas y barbacoas a medidas, crean espacios &uacute;nicos que reflejan tu estilo y necesidades. Con calidad y atenci&oacute;n al detalle, transforman tus ideas en proyectos excepcionales.</p>
+        <h4>Precio: <span id="PergolasPrecio">15000</span> <span class="tipoMoneda">CUP</span></h4>
+        <h4>Cantidad de p&aacute;ginas: <span id="Pergolas">5</span></h4>
+        <h4>Pa&iacute;s: Estados Unidos</h4>
+        <button onclick="window.location.href='https://rncontractorllcompany.com/'">Ir al sitio</button>
+      </div>
+
+      <div class="sectTrabFinalizados_card">
+        <div class="sectTrabFinalizados_card_imgs">
+          <img src="img/sitio_transpv1.jpg" alt="foto de proyecto"/>
+          <img src="img/sitio_transpv2.jpg" alt="foto de proyecto"/>
+        </div>
+        <p>"Transportaciones V&aacute;zquez", creado para su Mipyme, muestra sus servicios de transporte, como los veh&iacute;culos disponibles y los servicios que ofrecen. Permite a los clientes ver informaci&oacute;n detallada sobre la empresa y hacer reservaciones en l&iacute;nea.</p>
+        <h4>Precio: <span id="TransportPrecio">18000</span> <span class="tipoMoneda">CUP</span></h4>
+        <h4>Cantidad de p&aacute;ginas: <span id="Transport">6</span></h4>
+        <h4>Pa&iacute;s: Cuba</h4>
+        <button onclick="window.location.href='http://qnecesitas.nat.cu/TransportacionesVazquez.html'">Ir al sitio</button>
+      </div>
+      
+      <div class="sectTrabFinalizados_card">
+        <div class="sectTrabFinalizados_card_imgs">
+          <img src="img/web2.png" alt="foto de proyecto"/>
+          <img src="img/web2b.png" alt="foto de proyecto"/>
+        </div>
+
+        <p> En el sitio web de LuisitoClimaHabana se hace hincapi&eacute; en la calidad de sus herramientas y materiales, y se ofrecen servicios de instalaci&oacute;n y reparaci&oacute;n de aire acondicionado, con la posibilidad de reservar citas y ver precios y testimonios.</p>
+        <h4>Precio: <span id="LuisitoClimaPrecio">3000</span> <span class="tipoMoneda">CUP</span> </h4>
+        <h4>Cantidad de p&aacute;ginas: <span id="LuisitoClima">1</span></h4>
+        <h4>Pa&iacute;s: Cuba</h4>
+        <button onclick="window.location.href='http://qnecesitas.nat.cu/LuisitoClimaHabana'">Ir al sitio</button>
+      </div>
+   
+      <div class="sectTrabFinalizados_card">
+        <div class="sectTrabFinalizados_card_imgs">
+          <img src="img/app8.png" alt="foto de proyecto"/>
+          <img src="img/app10.png" alt="foto de proyecto"/>
+        </div>
+
+        <p> La versi&oacute;n web de la aplicaci&oacute;n "NovaTaxi" ofrece diversas herramientas para que los usuarios puedan reservar sus viajes de manera f&aacute;cil desde cualquier dispositivo con acceso a Internet. La experiencia del cliente se ve mejorada, simplificando el proceso de reserva del viaje.</p>
+        <h4>Precio: <span id="NovaTaxiWebPrecio">36000</span> <span class="tipoMoneda">CUP</span></h4>
+        <h4>Cantidad de p&aacute;ginas: <span id="NovaTaxiWeb">12</span></h4>
+        <h4>Pa&iacute;s: Cuba</h4>
+        <button onclick="window.location.href='http://qnecesitas.nat.cu/NovaTaxi'">Ir al sitio</button>
+      </div>
+
+      <div class="sectTrabFinalizados_card">
+        <div class="sectTrabFinalizados_card_imgs">
+          <img src="img/web3.png" alt="foto de proyecto"/>
+          <img src="img/web3a.png" alt="foto de proyecto"/>
+        </div>
+
+        <p> El sitio web de XYZproducciones es una herramienta profesional y eficaz para presentar la experiencia y habilidades del equipo. La navegación es fácil y sencilla, permitiendo a los visitantes encontrar rápidamente la información que necesitan.</p>
+        <h4>Precio: <span id="xyzPrecio">9000</span> <span class="tipoMoneda">CUP</span></h4>
+        <h4>Cantidad de p&aacute;ginas: <span id="xyz">3</span></h4>
+        <h4>Pa&iacute;s: Cuba</h4>
+        <button onclick="window.location.href='https://xyz.nat.cu/'">Ir al sitio</button>
+      </div>
+
+      <div class="sectTrabFinalizados_card">
+        <div class="sectTrabFinalizados_card_imgs">
+          <img src="img/web4.png" alt="foto de proyecto"/>
+          <img src="img/web4a.png" alt="foto de proyecto"/>
+        </div>
+
+        <p>Creamos un sitio web moderno y funcional para la empresa Materiales Alebrije en Camagüey, con información detallada sobre los productos y servicios ofrecidos en la fabricaci&oacute;n de pinturas y sus derivados. Es una herramienta valiosa para buscar productos de alta calidad en este campo.</p>
+        <h4>Precio: <span id="MAlebrijeWebPrecio">27000</span> <span class="tipoMoneda">CUP</span></h4>
+        <h4>Cantidad de p&aacute;ginas: <span id="MAlebrijeWeb">9</span></h4>
+        <h4>Pa&iacute;s: Cuba</h4>
+        <button onclick="window.location.href='http://qnecesitas.nat.cu/MAlebrijeWeb'">Ir al sitio</button>
+      </div>
+
+      
+
+    </div>
+  </section>
+
+<footer id="devWeb_footer">
+  <div class="footer_indice">
+    <h3>&Iacute;ndice</h3>
+    <a class="nav_web" href="index.html">Inicio</a>
+    <button class="btnOpenAndroid">Android</button>
+    <button class="btnOpenWeb">Web</button>
+    <button class="btnOpenPc">PC</button>
+    <a href="index.html#inicio_diseno">Dise&ntilde;o</a>
+    <a href="technicalLanguage.html">Lenguaje t&eacute;cnico</a>
+  </div>
+
+  <div class="footer_contacto" >
+    <h3>Contactos</h3>
+    <div>
+      <img src="img/faceb_icon.svg" alt="icono de facebook"> 
+      <a href="https://www.facebook.com/qnecesitas.paginaprincipal">QNecesitas P&aacute;ginaPrincipal</a>
+    </div>
+    <div>
+      <img src="img/wapp_icon.svg" alt="icono de wapp">
+      <a href="https://api.whatsapp.com/send?phone=55759386">+5355759386</a>
+    </div>
+    <div>
+      <img src="img/mail_icon.svg" alt="icono de email">
+      <a href="mailto:qnecesitas.desarrollo@gmail.com">qnecesitas.desarrollo@gmail.com</a>
+    </div>
+    <div>
+      <img src="img/call_icon.svg" alt="icono de telefono">
+      <a href="tel:+5355759386">+5355759386</a>
+    </div>
+    <div>
+      <img src="img/instagramwhite.svg" alt="icono de instagram">
+      <a href="https://instagram.com/qnecesitas_?igshi=OGQ5ZDc2ODk2ZA==">qnecesitas_</a>
+    </div>
+  </div >
+
+
+  <div class="footer_icono">
+    <img src="icon_text.png">
+  </div>
+</footer>
+
+
+   <script src="./js/devWeb.js"></script>
+   <script src="js/bootstrap.js"></script>
+   <script src="./php/ColocarVistaWeb.php"></script>
+
+</body>
+</html>

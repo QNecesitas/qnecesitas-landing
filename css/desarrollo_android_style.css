@@ -1,0 +1,1515 @@
+
+/*xXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ */
+
+/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Ronnyn Nordelo Styles para PC
+   ========================================================================== */
+body{
+  background-color: #f4f4f4;
+  font-family: 'Roboto', sans-serif;
+}
+html{
+  font-size: 62.5%;
+}
+:root{
+  --violet-light: #a440af;
+  --violet-medium:  #682d70;
+  --violet-dark: #552d61;
+  --violeta-very-dark:#391e41;
+
+  --blue-light:#4f96e5;
+  --blue-medium: #235D9D;
+  --blue-dark: #0e234b;
+
+  --gray-light: #eaeaea;
+  --gray-medium: #bfbfbf;
+
+  --gradient_violeta: linear-gradient(45deg,#1e1a3d,black);
+}
+
+
+
+
+/*Navegation----------------------*/
+nav{
+  border-bottom: solid 0.5px rgba(255, 255, 255, 0.07);
+  width: 100%;
+  background-color: transparent;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+}
+
+nav .nav_web{
+  text-decoration: white underline;
+}
+
+nav div{
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+  align-items: center;
+}
+
+nav img{
+  width: 40px;
+  height: 40px;
+}
+
+nav div a{
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+nav div button{
+  background: none;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 0;
+  border: none;
+}
+nav div button:hover{
+  color: blue;
+}
+
+nav div h2{
+  font-size: 20px;
+  margin-left: 20px;
+  color: white;
+  margin-bottom: 0;
+}
+
+.nav_bar_icon{
+  display: none;
+  margin-right: 12px;
+}
+
+.nav_logo{
+  width: 30px;
+  height: 30px;
+}
+
+.my_btn-close{
+  width: 30px;
+  height: 30px;
+}
+.offcanvas-header h4{
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.offcanvas-body{
+  display: flex;
+  align-items:flex-start;
+  flex-direction: column;
+  text-align: left;
+  padding-top: 0;
+}
+
+.offcanvas-body ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.offcanvas-body ul li button{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0;
+  background: initial;
+  border: none;
+}
+.li-first-canvas{
+  padding-top: 0 !important;
+}
+.offcanvas-body ul{
+  list-style: none;
+  padding-left: 0px;
+  padding-top: 0;
+}
+
+
+.nav_icon{
+  width: 27px;
+  height: 27px;
+  margin-right:8px;
+  filter: invert(1);
+}
+
+.navigationBar_socialMedia{
+ display: flex;
+  margin-top: 20px;
+  gap: 1.5rem;
+}
+
+.offcanvas hr{
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 0px;
+}
+
+
+
+
+/*Header----------------------*/
+#header{
+  background-image: url("../img/header1_telef_larger.png");
+  height: 600px;
+  width: 100%;
+  display: grid;
+  background-size: cover;
+}
+
+header h1{
+  font-size: 32px;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+header h1:nth-child(2){
+  font-size: 32px;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -20px;
+}
+
+header h2{
+  font-size: 28px;
+  color: white;
+  margin-left: 10px;
+}
+
+header div{
+  align-self: center;
+}
+
+
+
+
+
+/*Setion index*/
+.index{
+  background-color: var(--gray-light);
+  display: flex;
+}
+
+.index h2{
+  font-size: 20px;
+  color: var(--blue-medium);
+}
+
+.index ul{
+  margin-left: 2px;
+  margin-top: 0px;
+  list-style: none;
+  padding-left: 15px;
+
+}
+
+.index a{
+  text-decoration: none;
+  color: var(--blue-medium);
+}
+
+.index svg{
+  width: 20px;
+  height: 100%;
+  background-color: var(--blue-dark);
+}
+
+
+
+
+
+/*Section importance*/
+.sectImport{
+  background-color: var(--gray-light);
+  padding-bottom: 50px;
+  padding-top: 10px;
+}
+
+.sectImport h2{
+  color: var(--blue-medium);
+  text-align: center;
+}
+
+.sectImport_cardsZone{
+  display: flex;
+  justify-content: center;
+}
+
+.sectImport_cardsZone div{
+  background-color: white;
+  border-radius: 18px;
+  box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.23);
+  width: 15rem;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sectImport_cardsZone div img{
+  background-colser: var(--gray-medium);
+  border-radius: 50px;
+  width: 5rem;
+  height: 5rem;
+  padding: 1rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.sectImport_cardsZone h3{
+  font-size: 1.2rem;
+}
+
+
+.sectImport_cardsZone p{
+  text-align: center;
+  margin: 10px;
+  font-size: 1rem;
+}
+
+
+
+
+
+/*Sect Kinds of app*/
+.sectKindsApp{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sectKindsApp_cards{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.sectKindsApp_left{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.sectKindsApp_left{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.sectKindsApp_left div{
+  display: flex;
+  align-items: center;
+}
+
+.sectKindsApp_right div{
+  display: flex;
+  align-items: center;
+}
+
+.sectKindsApp h2{
+  color: var(--blue-medium);
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.sectKindsApp_cards p{
+  margin-left: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.sectKindsApp_desc{
+  width: 50%;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+/*Section Explains */
+.sectExplain_Card:nth-child(1){
+  background-color: white;
+  padding: 24px;
+}
+
+.sectExplain_Card:nth-child(2){
+  background-color: var(--gray-light);
+  padding: 24px;
+}
+
+.sectExplain_Card:nth-child(1) div{
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+}
+
+.sectExplain_Card:nth-child(2) div{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.sectExplain_Card img{
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.sectExplain_Card h2{
+  color: var(--blue-medium);
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.sectExplain_Card p{
+  margin: 30px;
+  text-align: justify;
+  text-indent: 12px;
+}
+
+.sectExplain_Card strong{
+  color: var(--blue-medium);
+}
+
+.sectExplain_Card_body{
+  display: flex;
+}
+
+
+
+.radio-inputs {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row !important;
+  border-radius: 0.5rem;
+  background-color: #EEE;
+  box-sizing: border-box;
+  box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
+  padding: 0.25rem;
+  width: 100%;
+  font-size: 14px;
+}
+
+.radio-inputs .radio {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.radio-inputs .radio input {
+  display: none;
+}
+
+.radio-inputs .radio .name {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  border: none;
+  padding: .5rem 0;
+  color: rgba(51, 65, 85, 1);
+  transition: all .15s ease-in-out;
+}
+
+.radio-inputs .radio input:checked + .name {
+  background-color: #fff;
+  font-weight: 600;
+}
+.name1{
+  background-color: #fff;
+  font-weight: 600;
+}
+/*Prices*/
+.notification {
+ /* display: flex;
+  flex-direction: column;*/
+  isolation: isolate;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: var(--gray-light);
+  border-radius: 1rem;
+  overflow: hidden;
+  font-family: sans-serif;
+  font-size: 16px;
+  --gradient: linear-gradient(to bottom, var(--blue-light), var(--blue-medium), var(--blue-dark));
+  --color: var(--blue-medium);
+}
+
+.notification:before {
+  position: absolute;
+  content: "";
+  inset: 0.0625rem;
+  border-radius: 0.9375rem;
+  background: #fff;
+  z-index: 2
+}
+
+.notification:after {
+  position: absolute;
+  content: "";
+  width: 0.25rem;
+  inset: 0.65rem auto 0.65rem 0.5rem;
+  border-radius: 0.125rem;
+  background: var(--gradient);
+  transition: transform 300ms ease;
+  z-index: 4;
+}
+
+.notification:hover:after {
+  transform: translateX(0.15rem)
+}
+
+.notititle {
+  color: var(--color);
+  padding: 0.65rem 0.25rem 0.4rem 1.25rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: transform 300ms ease;
+  z-index: 5;
+}
+
+.notification:hover .notititle {
+  transform: translateX(0.15rem)
+}
+
+.notibody {
+  color: #99999d;
+  padding: 0 3rem;
+  transition: transform 300ms ease;
+  z-index: 5;
+}
+
+.notification:hover .notibody {
+  transform: translateX(0.25rem)
+}
+
+.notiglow,
+.notiborderglow {
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle closest-side at center, white, transparent);
+  opacity: 0;
+  transition: opacity 300ms ease;
+}
+
+.notiglow {
+  z-index: 3;
+}
+
+.notiborderglow {
+  z-index: 1;
+}
+
+.notification:hover .notiglow {
+  opacity: 0.1
+}
+
+.notification:hover .notiborderglow {
+  opacity: 0.1
+}
+
+.note {
+  color: var(--color);
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 0.9rem;
+  width: 75%;
+}
+
+/*Trabajos fializados*/
+
+.sectTrabFinalizados{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  overflow: scroll;
+}
+
+.sectTrabFinalizados h2{
+  color: #235D9D;
+  font-size: 28px;
+  padding-top: 2rem;
+}
+
+.sectTrabFinalizados p{
+  margin: 1rem 2.3rem;
+  text-align: justify;
+}
+
+.sectTrabFinalizados_cardsZone{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+
+.sectTrabFinalizados_card{
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.23);
+  width: 280px;
+  margin-right: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.sectTrabFinalizados_card img{
+  width: 250px;
+  margin: 2px;
+  height: 250px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.sectTrabFinalizados_card_imgs{
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  margin-top: 10px;
+}
+
+.sectTrabFinalizados_card_imgs img{
+  width: 120px;
+  margin: 2px;
+  height: 240px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.sectTrabFinalizados_card p{
+  margin-left: 8px;
+  margin-right: 8px;
+  width: 248px;
+  text-align: justify;
+  margin-top: 12px;
+}
+
+.sectTrabFinalizados_card h4{
+  margin-left: 8px;
+  margin-right: 8px;
+  width: 248px;
+  text-align: justify;
+  margin-top: 4px;
+  font-size: 1.2rem;
+}
+
+
+.sectTrabFinalizados_card button{
+  align-self: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #4f96e5;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+  box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.23);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+
+#devAndroid_iph{
+  display:flex ;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--gray-light);
+}
+
+#devAndroid_iph h2{
+  padding-top: 0.5rem;
+}
+
+
+
+
+
+/*Footer-----------------------------------*/
+footer{
+    padding-top: 20px;
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background: var(--gradient_violeta);
+    padding-bottom: 20px;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
+}
+
+footer .footer_indice{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+.footer_indice h3{
+  font-size: 1.4rem;
+}
+footer .footer_indice a{
+  margin-top: 8px;
+}
+
+footer .footer_indice button{
+  margin-top: 8px;
+  font-size: 16px;
+  margin-bottom: 0;
+  background: initial;
+  border: none;
+  padding: 0;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+}
+footer .footer_indice button:hover{
+  color:blue;
+}
+
+footer img{
+  width: 120px;
+  height: 120px;
+}
+
+.footer_contacto div{
+  display: flex;
+  align-items: center;
+}
+
+.footer_contacto div a{
+  margin-left: 12px;
+}
+
+.footer_contacto div img{
+  width: 28px;
+  height: 28px;
+}
+.footer_contacto h3{
+  font-size: 1.4rem;
+}
+.footer_icono{
+  align-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+ Ronnyn Nordelo Styles para Telefono
+ ========================================================================== */
+@media only screen and (max-width: 600px) {
+
+  /*Navegation----------------------*/
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav .nav_inicio{
+    text-decoration: white underline;
+  }
+
+  .nav_titulo{
+    font-size: 14px;
+
+  }
+
+  nav div{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    align-items: center;
+  }
+
+  nav img{
+    width: 30px;
+    height: 30px;
+  }
+
+  nav div a{
+    display: none;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  nav div button{
+    display: none;
+    background: none;
+    color: white;
+    border: none;
+  }
+
+  nav div h2{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 0;
+  }
+
+  .nav_bar_icon{
+    display: block;
+    margin-right: 12px;
+  }
+
+  .offcanvas.offcanvas-start{
+    width: 20rem !important;
+  }
+  .ul-offc{
+    width: 100% ;
+  }
+  .ul-offc li{
+    border-bottom: #999 solid 1px;
+    padding: 1rem;
+  }
+
+
+
+  /*Header----------------------*/
+  #header{
+    background-image: url("../img/header1_telef_short.png");
+    height: 530px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+  }
+
+  header h1{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 24px;
+    width: 100%;
+    color: white;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+
+  header h1:nth-child(2){
+    text-align: center;
+    width: 100%;
+    font-size: 24px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: -20px;
+  }
+
+  header h2{
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+  }
+
+  header div{
+    align-self: center;
+  }
+
+
+
+
+
+  /*Setion index*/
+  .index{
+    background-color: var(--gray-light);
+    display: flex;
+  }
+
+  .index h2{
+    font-size: 20px;
+    color: var(--blue-medium);
+  }
+
+  .index ul{
+    margin-left: 2px;
+    margin-top: 0px;
+    list-style: none;
+    padding-left: 15px;
+
+  }
+
+  .index a{
+    text-decoration: none;
+    color: var(--blue-medium);
+  }
+
+  .index svg{
+    width: 20px;
+    height: 100%;
+    background-color: var(--blue-dark);
+  }
+
+
+
+
+
+  /*Section importance*/
+  .sectImport{
+    background-color: var(--gray-light);
+    padding-bottom: 50px;
+    padding-top: 10px;
+  }
+
+  .sectImport h2{
+    color: var(--blue-medium);
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .sectImport_cardsZone{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .sectImport_cardsZone div{
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.23);
+    width: 10rem;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sectImport_cardsZone div img{
+    background-color: var(--gray-medium);
+    border-radius: 50px;
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem;
+    margin-top: 20px;
+  }
+
+
+  .sectImport_cardsZone p{
+    text-align: center;
+    margin: 10px;
+  }
+
+
+
+
+
+  /*Section Explains */
+  .sectExplain_Card:nth-child(1){
+    background-color: white;
+    padding: 24px;
+  }
+
+  .sectExplain_Card:nth-child(2){
+    padding-bottom: 50px;
+    background-color: var(--gray-light);
+    padding: 24px;
+  }
+
+
+  .sectExplain_Card:nth-child(1) div{
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sectExplain_Card:nth-child(2) div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sectExplain_Card img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+  }
+
+  .sectExplain_Card h2{
+    color: var(--blue-medium);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .sectExplain_Card p{
+    margin-left: 0.15rem;
+    margin-right: 0.15rem;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 300px;
+    text-align: justify;
+    text-indent: 12px;
+  }
+
+  .sectExplain_Card strong{
+    color: var(--blue-medium);
+  }
+
+
+
+  /*Sect Kinds of app*/
+  .sectKindsApp{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sectKindsApp_cards{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+
+  .sectKindsApp_right{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+
+  .sectKindsApp_left{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+
+  .sectKindsApp_left div{
+    display: flex;
+    align-items: center;
+  }
+
+  .sectKindsApp_right div{
+    display: flex;
+    align-items: center;
+  }
+
+  .sectKindsApp h2{
+    color: var(--blue-medium);
+    text-align: center;
+  }
+
+  .sectKindsApp_cards p{
+    margin-left: 20px;
+  }
+
+  .sectKindsApp_desc{
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .sectKindsApp_cards img{
+    width: 30px;
+    height: 30px;
+  }
+
+
+  .sectExplain_Card_body{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+
+
+  /*Trabajos fializados*/
+
+  .sectTrabFinalizados{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 20px;
+  }
+
+  .sectTrabFinalizados h2{
+    color: #235D9D;
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+  }
+
+  .sectTrabFinalizados_cardsZone{
+    width: 100%;
+    overflow: scroll;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    padding-bottom: 50px;
+  }
+
+
+  .sectTrabFinalizados_card{
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.23);
+    width: 280px;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+
+  .sectTrabFinalizados_card img{
+    width: 250px;
+    margin: 2px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  .sectTrabFinalizados_card_imgs{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    margin-top: 10px;
+  }
+
+  .sectTrabFinalizados_card_imgs img{
+    width: 120px;
+    margin: 2px;
+    height: 240px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  .sectTrabFinalizados_card p{
+    margin-left: 8px;
+    margin-right: 8px;
+    width: 248px;
+    text-align: justify;
+  }
+
+  .sectTrabFinalizados_card button{
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #4f96e5;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.23);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+
+
+
+
+
+
+
+  /*Footer-----------------------------------*/
+  footer{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background: var(--gradient_violeta);
+    padding-bottom: 20px;
+  }
+
+  footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+  }
+
+  footer .footer_indice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin: 0px 10px;
+  }
+
+  footer .footer_indice a{
+    margin-top: 8px;
+  }
+
+  footer .footer_indice button{
+    font-size: 12px;
+  }
+
+  footer img{
+    width: 50px;
+    height: 50px;
+  }
+
+  .footer_contacto div{
+    display: flex;
+    align-items: center;
+  }
+
+  .footer_contacto div a{
+    margin-left: 12px;
+  }
+
+  .footer_contacto div img{
+    width: 28px;
+    height: 28px;
+  }
+
+  .footer_icono{
+    align-self: end;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border-top: 1px solid #999;
+  margin: 1em 0;
+  padding: 0;
+  opacity: 1;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Author's custom styles  */
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+/*
+ * Extends the .sr-only class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    background: #fff !important;
+    color: #000 !important;
+    /* Black prints faster */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
+    content: "";
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /*
+   * Printing Tables:
+   * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+   */
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+
+
+
+}
+
+

@@ -1,0 +1,297 @@
+ <!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Desarrollo pra PC</title>
+  <meta name="description" content="Servicio de desarrollo para PC de la empresa QNecesitas">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta name="robots">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="css/desarrollo_pc_style.css">
+
+  <meta name="theme-color" content="#fafafa">
+
+
+
+</head>
+
+<body>
+
+  <!--Navigation bar superior------------------------------------------------------------------------->
+  <nav>
+    <div>
+      <img src="icon.png" alt="Logo de la empresa">
+      <h2 class="nav_titulo">Desarrollo para PC</h2>
+    </div>
+    <div>
+      <a class="nav_web" href="index.html">Inicio</a>
+      <button class="btnOpenAndroid">Android</button>
+      <button class="btnOpenWeb">Web</button>
+      <button class="btnOpenPc">PC</button>
+      <a href="index.html#inicio_diseno">Dise&ntilde;o</a>
+      <a href="technicalLanguage.html">Lenguaje t&eacute;cnico</a>
+    </div>
+    <img class="nav_bar_icon" type="button"
+       data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavigation"
+       src="img/menu_mobile.svg" aria-controls="offcanvasNavigation">
+  </nav>
+
+<!--Navigation Bar Cell-->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavigation" aria-labelledby="offcanvasNavigationLabel">
+  <div class="offcanvas-header">
+    <img class="nav_logo" src="icon.png" alt="Logo de la empresa">
+    <h4>QNecesitas</h4>
+    <img type="button" class="my_btn-close" data-bs-dismiss="offcanvas" aria-label="Close" src="img/close_mobile.svg">
+  </div>
+  <hr/>
+  <div class="offcanvas-body">
+    <ul class="ul-offc">
+      <li class="li-first-canvas"><a class="nav_web" href="index.html">Inicio</a></li>
+      <li class="btnOpenAndroid"><button>Android</button></li>
+      <li class="btnOpenWeb"><button>Web</button></li>
+      <li class="btnOpenPc"><button>PC</button></li>
+      <li><a href="index.html#inicio_diseno">Dise&ntilde;o</a></li>
+      <li><a href="technicalLanguage.html">Lenguaje t&eacute;cnico</a></li>
+    </ul>
+    <div class="navigationBar_socialMedia">
+      <img class="nav_icon" src="img/faceb_icon.svg" alt="Facebook icon" onclick="location.href='https://www.facebook.com/qnecesitas.paginaprincipal'">
+      <img class="nav_icon" src="img/wapp_icon.svg" alt="WhatsApp icon" onclick="location.href='https://api.whatsapp.com/send?phone=55759386'">
+      <img class="nav_icon" src="img/mail_icon.svg" alt="Email icon" onclick="location.href='mailto:qnecesitas.desarrollo@gmail.com'">
+      <img class="nav_icon" src="img/call_icon.svg" alt="Call icon" onclick="location.href='tel:+5355759386'">
+      <img class="nav_icon" src="./img/instagramwhite.svg" alt="intsgramIcon" onclick="location.href='https://instagram.com/qnecesitas_?igshi=OGQ5ZDc2ODk2ZA=='">
+    </div>
+  </div>
+</div>
+
+
+
+  <!--Header------------------------------------------------------------------------------------------->
+  <header id="header">
+    <div>
+      <h1>"El ordenador naci&oacute; para resolver <br>  problemas que antes no exist&iacute;an"</h1>
+      <h2>Bill Gates</h2>
+    </div>
+  </header>
+
+
+  <!--Index------------------------------------------------------------------------>
+  <section class="index">
+    <div>
+      <h2>En esta secci&oacute;n</h2>
+      <ul>
+        <li><a href="#devPC_kind">&iquest;Qu&eacute; tipo de programas hacemos?</a></li>
+        <li><a href="#devPC_imp">&iquest;Por qu&eacute; usted necesitar&iacute;a un programa de escritorio?</a></li>
+        <li><a href="#devPC_prec">Sobre nuestros precios</a></li>
+        <li><a href="#devPC_so">&iquest;Qu&eacute; pasa si se quiere una aplicaci&oacute;n para otro sistema operativo diferente de Windows?</a></li>
+      </ul>
+    </div>
+  </section>
+
+
+
+  <!--Kinds of app-->
+  <section id="devPC_kind" class="sectKindsApp">
+    <h2>&iquest;Qu&eacute; tipo de programas hacemos?</h2>
+    <div class="sectKindsApp_cards">
+      <div>
+        <img src="img/icoKapp_info.svg" alt="icono de ">
+        <p>De flujo de informaciones</p>
+      </div>
+      <div>
+        <img src="img/icoKapp_percent.svg" alt="icono de ">
+        <p>De contabilidad y finanzas</p>
+      </div>
+      <div>
+        <img src="img/icoKapp_inventory.svg" alt="icono de ">
+        <p>De administraci&oacute;n</p>
+      </div>
+      <div>
+        <img src="img/icoKapp_smart_display.svg" alt="icono de ">
+        <p>De fotos, videos y m&uacute;sica</p>
+      </div>
+      <div>
+        <img src="img/icoKapp_storage_gray.svg" alt="icono de ">
+        <p>De almacenamiento de registros</p>
+      </div>
+    </div>
+    <p class="sectKindsApp_desc">Estos son solo ejemplos, el l&iacute;mite lo pone la imaginaci&oacute;n. Estaremos m&aacute;s que agradecidos si usted nos contacta para preguntarnos si es posible desarrollar alguna idea de programa</p>
+  </section>
+
+
+
+
+
+  <!--Importance-->
+  <section id="devPC_imp" class="sectImport">
+    <h2>&iquest;Por qu&eacute; usted necesitar&iacute;a un programa de escritorio?</h2>
+    <div class="sectImport_cardsZone">
+      <div>
+        <img src="img/icoKapp_chair.svg" alt="Icono de prestigio">
+        <h3>Comodidad</h3>
+        <p>Resuelve problemas complejos facilitando una mayor gesti&oacute;n empresarial o comodidad en el trabajo</p>
+      </div>
+      <div>
+        <img src="img/icoKapp_group.svg" alt="Icono de confianza">
+        <h3>Ordenamiento</h3>
+        <p>Ayuda con el orden de la empresa digitalizando el flujo de la informaci&oacute;n</p>
+      </div>
+      <div>
+        <img src="img/icoKapp_storage.svg" alt="Icono de crecimiento">
+        <h3>Almacenamiento</h3>
+        <p>Ofrece la durabilidad y accesibilidad de informaciones como los registros de productos, registros econ&oacute;micos y otros</p>
+      </div>
+      <div>
+        <img src="img/icon_barcode.svg" alt="Icono de alcance">
+        <h3>Alcance</h3>
+        <p>Eleva el prestigio y la modernizaci&oacute;n de la empresa mostrando esta idea tan innovadora</p>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <!--How work-->
+  <section class="sectExplain">
+
+    <div id="devPC_prec" class="sectExplain_Card">
+      <h2>Sobre nuestros precios</h2>
+      <div>
+        <img src="img/img_dinero1.png" alt="Dinero">
+        <p>
+          Un programa de escritorio está compuesto por varias pantallas entre las que se navega. Además, ofrecemos la opción de pago en dos plazos, brindándole flexibilidad financiera para aprovechar nuestros servicios de manera conveniente.</p>
+      </div>
+      <div class="radio-inputs">
+        <label class="radio" id="btnSbusiness">
+          <input type="radio" name="radio" checked="">
+          <span class="name name1">Negocio pequeño</span>
+        </label>
+        <label class="radio" id="btnCompany">
+          <input type="radio" name="radio">
+          <span class="name">Empresa</span>
+        </label>
+            
+        <label class="radio" id="btnFbusiness">
+          <input type="radio" name="radio">
+          <span class="name">Negocio extanjero</span>
+        </label>
+      </div>
+  
+      <div id="smallBusiness" >
+        <div class="notification" >
+          <h2 class="notititle">Negocio pequeño</h2>
+          <p class="notibody">La cantidad de pantallas a realizar depende de la complejidad de dicha aplicaci&oacute;n y se le aclara a nuestros clientes antes de empezar un proyecto, acordando as&iacute; un precio total pues cada pantalla tiene un coste de <strong> 3000 CUP</strong>. </strong></p>
+        </div>
+      </div> 
+  
+      <div id="company" style="display: none;">
+        <div class="notification" >
+            <h2 class="notititle"> Empresa</h2>
+            <p class="notibody">La cantidad de pantallas a realizar depende de la complejidad de dicha aplicaci&oacute;n y se le aclara a nuestros clientes antes de empezar un proyecto, acordando as&iacute; un precio total pues cada pantalla tiene un coste de <strong> 5000 CUP</strong>. </strong></p>
+          </div>
+      </div> 
+  
+      <div id="foreignBusiness" style="display: none;">
+        <div class="notification" >
+            <h2 class="notititle">Negocio extranjero</h2>
+            <p class="notibody">La cantidad de pantallas a realizar depende de la complejidad de dicha aplicaci&oacute;n y se le aclara a nuestros clientes antes de empezar un proyecto, acordando as&iacute; un precio total pues cada pantalla tiene un coste de <strong> 100 USD</strong>. </strong></p>
+          </div> 
+      </div>
+    </div>
+
+
+
+    <!--Otro so-->
+    <div id="devPC_so" class="sectExplain_Card">
+      <h2>&iquest;Qu&eacute; pasa si se quiere una aplicaci&oacute;n para otro sistema operativo diferente de Windows?</h2>
+      <div>
+        <img src="img/img_otro_so1.png" alt="Otro so">
+        <p>Nuestro equipo usualmente desarrolla programas compatibles con Windows, sin embargo no se cierra a trabajos con otros sistemas basados en Linux. Esta desici&oacute;n no afecta el sistema de precios de estos programas, o sea, este se calcula de la misma forma.</p>
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <footer id="devPC_footer">
+    <div class="footer_indice">
+      <h3>&Iacute;ndice</h3>
+      <a class="nav_web" href="index.html">Inicio</a>
+      <button class="btnOpenAndroid">Android</button>
+      <button class="btnOpenWeb">Web</button>
+      <button class="btnOpenPc">PC</button>
+      <a href="index.html#inicio_diseno">Dise&ntilde;o</a>
+      <a href="technicalLanguage.html">Lenguaje t&eacute;cnico</a>
+    </div>
+
+    <div class="footer_contacto" >
+      <h3>Contactos</h3>
+      <div>
+        <img src="img/faceb_icon.svg" alt="icono de facebook"> 
+        <a href="https://www.facebook.com/qnecesitas.paginaprincipal">QNecesitas P&aacute;ginaPrincipal</a>
+      </div>
+      <div>
+        <img src="img/wapp_icon.svg" alt="icono de wapp">
+        <a href="https://api.whatsapp.com/send?phone=55759386">+5355759386</a>
+      </div>
+      <div>
+        <img src="img/mail_icon.svg" alt="icono de email">
+        <a href="mailto:qnecesitas.desarrollo@gmail.com">qnecesitas.desarrollo@gmail.com</a>
+      </div>
+      <div>
+        <img src="img/call_icon.svg" alt="icono de telefono">
+        <a href="tel:+5355759386">+5355759386</a>
+      </div>
+      <div>
+        <img src="img/instagramwhite.svg" alt="icono de instagram">
+        <a href="https://instagram.com/qnecesitas_?igshi=OGQ5ZDc2ODk2ZA==">qnecesitas_</a>
+      </div>
+    </div >
+   
+
+    <div class="footer_icono">
+      <img src="icon_text.png">
+    </div>
+  </footer>
+
+
+
+
+
+
+
+  <script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="./js/devPC.js"></script>
+  <script src="./php/ColocarVistaPC.php"></script>
+
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>

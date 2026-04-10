@@ -1,0 +1,455 @@
+ <!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Desarrollo Android</title>
+  <meta name="description" content="Servicio de desarrollo Android de la empresa QNecesitas">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta name="robots">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="css/desarrollo_android_style.css">
+
+
+  <meta name="theme-color" content="#fafafa">
+
+
+
+</head>
+
+<body>
+
+  <!--Navigation bar superior------------------------------------------------------------------------->
+  <nav>
+    <div>
+      <img src="icon.png" alt="Logo de la empresa">
+      <h2 class="nav_titulo">Desarrollo Android</h2>
+    </div>
+    <div>
+      <a class="nav_web" href="index.html">Inicio</a>
+      <button class="btnOpenAndroid">Android</button>
+      <button class="btnOpenWeb">Web</button>
+      <button class="btnOpenPc">PC</button>
+      <a href="index.html#inicio_diseno">Dise&ntilde;o</a>
+      <a href="technicalLanguage.html">Lenguaje t&eacute;cnico</a>
+    </div>
+    <img class="nav_bar_icon" type="button"
+       data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavigation"
+       src="img/menu_mobile.svg" aria-controls="offcanvasNavigation">
+  </nav>
+
+<!--Navigation Bar Cell-->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavigation" aria-labelledby="offcanvasNavigationLabel">
+  <div class="offcanvas-header">
+    <img class="nav_logo" src="icon.png" alt="Logo de la empresa">
+    <h4>QNecesitas</h4>
+    <img type="button" class="my_btn-close" data-bs-dismiss="offcanvas" aria-label="Close" src="img/close_mobile.svg">
+  </div>
+  <hr/>
+  <div class="offcanvas-body">
+    <ul class="ul-offc">
+      <li class="li-first-canvas"><a class="nav_web" href="index.html">Inicio</a></li>
+      <li class="btnOpenAndroid"><button>Android</button></li>
+      <li class="btnOpenWeb"><button>Web</button></li>
+      <li class="btnOpenPc"><button>PC</button></li>
+      <li><a href="index.html#inicio_diseno">Dise&ntilde;o</a></li>
+      <li><a href="technicalLanguage.html">Lenguaje t&eacute;cnico</a></li>
+    </ul>
+    <div class="navigationBar_socialMedia">
+      <img class="nav_icon" src="img/faceb_icon.svg" alt="Facebook icon" onclick="location.href='https://www.facebook.com/qnecesitas.paginaprincipal'">
+      <img class="nav_icon" src="img/wapp_icon.svg" alt="WhatsApp icon" onclick="location.href='https://api.whatsapp.com/send?phone=55759386'">
+      <img class="nav_icon" src="img/mail_icon.svg" alt="Email icon" onclick="location.href='mailto:qnecesitas.desarrollo@gmail.com'">
+      <img class="nav_icon" src="img/call_icon.svg" alt="Call icon" onclick="location.href='tel:+5355759386'">
+      <img class="nav_icon" src="./img/instagramwhite.svg" alt="intsgramIcon" onclick="location.href='https://instagram.com/qnecesitas_?igshi=OGQ5ZDc2ODk2ZA=='">
+    </div>
+  </div>
+</div>
+
+
+
+  <!--Header------------------------------------------------------------------------------------------->
+  <header id="header">
+    <div>
+      <h1>"Las oportunidades grandes nacen <br> de haber sabido aprovechar las peque&ntilde;as"</h1>
+      <h2>Bill Gates</h2>
+    </div>
+  </header>
+
+
+  <!--Index------------------------------------------------------------------------>
+  <section class="index">
+    <div>
+      <h2>En esta secci&oacute;n</h2>
+      <ul>
+        <li><a href="#devAndroid_kind">&iquest;Qu&eacute; tipo de aplicaciones hacemos?</a></li>
+        <li><a href="#devAndroid_imp">&iquest;Por qu&eacute; usted necesitar&iacute;a una aplicaci&oacute;n Android?</a></li>
+        <li><a href="#devAndroid_prec">Sobre nuestros precios</a></li>
+        <li><a href="#devAndroid_iph">&iquest;Qu&eacute; pasa si se quiere una aplicaci&oacute;n para iPhone?</a></li>
+      </ul>
+    </div>
+  </section>
+
+
+  <!--Kinds of app-->
+  <section  id="devAndroid_kind" class="sectKindsApp">
+    <h2>&iquest;Qu&eacute; tipo de aplicaciones hacemos?</h2>
+    <div class="sectKindsApp_cards">
+      <div class="sectKindsApp_left">
+        <div>
+          <img src="img/icoKapp_map.svg" alt="icono de ">
+          <p>De mapas y ubicaci&oacute;n</p>
+        </div>
+        <div>
+          <img src="img/icoKapp_inventory.svg" alt="icono de ">
+          <p>De cat&aacute;logos de productos</p>
+        </div>
+        <div>
+          <img src="img/icoKapp_shopping_cart.svg" alt="icono de ">
+          <p>De compra-venta</p>
+        </div>
+        <div>
+          <img src="img/icoKapp_info.svg" alt="icono de ">
+          <p>De informaciones</p>
+        </div>
+      </div>
+      <div class="sectKindsApp_right">
+        <div>
+          <img src="img/icoKapp_percent.svg" alt="icono de ">
+          <p>De contabilidad y c&aacute;lculos</p>
+        </div>
+        <div>
+          <img src="img/icoKapp_book_online.svg" alt="icono de ">
+          <p>De reservaciones</p>
+        </div>
+        <div>
+          <img src="img/icoKapp_menu_book.svg" alt="icono de ">
+          <p>De men&uacute;s de comida interactivos</p>
+        </div>
+        <div>
+          <img src="img/icoKapp_smart_display.svg" alt="icono de ">
+          <p>De fotos, videos y m&uacute;sica</p>
+        </div>
+      </div>
+    </div>
+    <p class="sectKindsApp_desc">Estos son solo ejemplos, el l&iacute;mite lo pone la imaginaci&oacute;n. Estaremos m&aacute;s que agradecidos si usted nos contacta para preguntarnos si es posible desarrollar alguna idea de aplicaci&oacute;n</p>
+  </section>
+
+
+
+
+
+  <!--Importance-->
+  <section id="devAndroid_imp" class="sectImport">
+    <h2>&iquest;Por qu&eacute; usted necesitar&iacute;a una aplicaci&oacute;n Android?</h2>
+    <div class="sectImport_cardsZone">
+      <div>
+        <img src="img/icoKapp_chair.svg" alt="Icono de prestigio">
+        <h3>Comodidad</h3>
+        <p>Resuelve problemas complejos facilitando una mayor gesti&oacute;n empresarial o comodidad en el trabajo</p>
+      </div>
+      <div>
+        <img src="img/icoKapp_group.svg" alt="Icono de confianza">
+        <h3>Interacci&oacute;n</h3>
+        <p>Potencia al m&aacute;ximo la interacci&oacute;n entre los clientes y la empresa, permiti&eacute;ndoles contactar, comprar, informarse y m&aacute;s</p>
+      </div>
+      <div>
+        <img src="img/icoKapp_storage.svg" alt="Icono de crecimiento">
+        <h3>Almacenamiento</h3>
+        <p>Ofrece la durabilidad y accesibilidad de informaciones como los registros de productos, registros econ&oacute;micos y otros</p>
+      </div>
+      <div>
+        <img src="img/icon_barcode.svg" alt="Icono de alcance">
+        <h3>Alcance</h3>
+        <p>Eleva el prestigio y la modernizaci&oacute;n de la empresa mostrando esta idea tan innovadora</p>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <!--How much is this-->
+  <section class="sectExplain">
+      <div id="devAndroid_prec" class="sectExplain_Card">
+
+    <h2>Sobre nuestros precios</h2>
+
+   <div>
+        <img src="img/img_dinero1.png" alt="Dinero">
+        <p>A continuaci&oacute;n mostramos la explicaci&oacute;n de c&oacute;mo calculamos el precio, pero no se preocupe si no la entiende del todo, al final de esta p&aacute;gina se ve el coste de las aplicaciones que hemos realizado, con lo que podr&aacute; hacerse una idea de por donde rondan los precios.
+         <!-- <br><br>Una aplicaci&oacute;n Android est&aacute; compuesta de varias pantallas entre las que se navega. La cantidad de pantallas a realizar depende de la complejidad de dicha aplicaci&oacute;n y se le aclara a nuestros clientes antes de empezar un proyecto, acordando as&iacute; un precio total pues cada pantalla tiene un coste de <strong>1500 CUP</strong>. </strong></p> -->
+      </div>
+
+      <div class="radio-inputs">
+        <label class="radio" id="btnSbusiness">
+          <input type="radio" name="radio" checked="">
+          <span class="name name1">Negocio pequeño</span>
+        </label>
+        <label class="radio" id="btnCompany">
+          <input type="radio" name="radio">
+          <span class="name">Empresa</span>
+        </label>
+
+        <label class="radio" id="btnFbusiness">
+          <input type="radio" name="radio">
+          <span class="name">Negocio extanjero</span>
+        </label>
+      </div>
+
+    <div id="smallBusiness" >
+      <div class="notification" >
+        <h2 class="notititle">Negocio pequeño</h2>
+        <p class="notibody">Una aplicaci&oacute;n Android est&aacute; compuesta de varias pantallas entre las que se navega. La cantidad de pantallas a realizar depende de la complejidad de dicha aplicaci&oacute;n y se le aclara a nuestros clientes antes de empezar un proyecto, acordando as&iacute; un precio total pues cada pantalla tiene un coste de <strong>3000 CUP</strong>. </strong></p>
+      </div>
+    </div>
+
+  <div id="company" style="display: none;">
+    <div class="notification" >
+        <h2 class="notititle"> Empresa</h2>
+        <p class="notibody">Una aplicaci&oacute;n Android est&aacute; compuesta de varias pantallas entre las que se navega. La cantidad de pantallas a realizar depende de la complejidad de dicha aplicaci&oacute;n y se le aclara a nuestros clientes antes de empezar un proyecto, acordando as&iacute; un precio total pues cada pantalla tiene un coste de <strong>5000 CUP</strong>. </strong></p>
+      </div>
+  </div>
+
+  <div id="foreignBusiness" style="display: none;">
+    <div class="notification" >
+        <h2 class="notititle">Negocio extranjero</h2>
+        <p class="notibody">Una aplicaci&oacute;n Android est&aacute; compuesta de varias pantallas entre las que se navega. La cantidad de pantallas a realizar depende de la complejidad de dicha aplicaci&oacute;n y se le aclara a nuestros clientes antes de empezar un proyecto, acordando as&iacute; un precio total pues cada pantalla tiene un coste de <strong>80 USD</strong>. </strong></p>
+      </div>
+  </div>
+
+
+
+  </section>
+
+ <!--Iphone-->
+ <div id="devAndroid_iph" class="sectExplain_Card">
+  <h2>&iquest;Qu&eacute; pasa si se quiere una aplicaci&oacute;n para iPhone?</h2>
+  <div class="sectExplain_Card_body">
+    <img src="img/img_iphone1.png" alt="Servidores">
+    <p>Nuestro equipo no desarrolla por el momento aplicaciones para iPhone pero tiene una alternativa a esto, desarrolla aplicaciones web que puden ser abiertas desde Safari y que cuentan con la mayor&iacute;a de las funciones que pueden ser usadas en una aplicaci&oacute;n iOS.</p>
+  </div>
+ </div>
+
+
+
+   <!--Trabajos finalizados-->
+    <section class="sectTrabFinalizados">
+    <h2>Algunos de nuestros trabajos</h2>
+    <p>Los precios que se muestran a continuaci&oacute;n se basan en la escala actual de precios de las aplicaciones. Estos se ajustan a la categor&iacute;a seleccionada, ya sea peque&ntilde;o negocio, empresa o negocio extranjero. En funci&oacute;n del r&aacute;pido desarrollo tecnol&oacute;gico y de los constantes cambios en los requisitos del mercado de aplicaciones empresariales, estos precios ir&aacute;n actualiz&aacute;ndose.</p>
+
+    <div class="radio-inputs">
+      <label class="radio" id="price-pn">
+        <input type="radio" name="radio" checked="">
+        <span class="name name2">Negocio pequeño</span>
+      </label>
+      <label class="radio" id="price-e">
+        <input type="radio" name="radio">
+        <span class="name">Empresa</span>
+      </label>
+
+      <label class="radio" id="price-ne">
+        <input type="radio" name="radio">
+        <span class="name">Negocio extanjero</span>
+      </label>
+    </div>
+
+    <div class="sectTrabFinalizados_cardsZone">
+
+      <div class="sectTrabFinalizados_card">
+        <div class="sectTrabFinalizados_card_imgs">
+          <img src="img/appIdioma.png" alt="foto de proyecto"/>
+          <img src="img/appIdioma2.png" alt="foto de proyecto"/>
+        </div>
+        <p>"IdiomApp" es una aplicaci&oacute;n educativa creada para "Estholon" que permite a los usuarios crear y rellenar definiciones propias. Tambi&eacute;n ofrece juegos interactivos para facilitar el aprendizaje.</p>
+        <h4 >Precio: <span id="IdiomAppPrecio">30000</span> <span class="tipo-moneda">CUP</span> </h4>
+        <h4>N&uacute;mero de pantallas: <span id="IdiomApp">10</span></h4>
+        <h4>Pa&iacute;s: Espa&ntilde;a</h4>
+        <button onclick="window.location.href='http://qnecesitas.nat.cu/IdiomApp/IdiomApp.1.3.apk'">Descargar</button>
+      </div>
+
+      <div class="sectTrabFinalizados_card">
+        <div class="sectTrabFinalizados_card_imgs">
+          <img src="img/app11.png" alt="foto de proyecto"/>
+          <img src="img/appYaEnCasa.png" alt="foto de proyecto"/>
+        </div>
+        <p>"YaEnCasa" es una aplicaci&oacute;n de ventas en l&iacute;nea que ofrece una interfaz intuitiva y herramientas &uacute;tiles para monitorear y controlar el negocio desde cualquier lugar, permitiendo mayor productividad.</p>
+        <h4 >Precio: <span id="YaEnCasaPrecio">36000</span> <span class="tipo-moneda">CUP</span></h4>
+        <h4>N&uacute;mero de pantallas: <span id="YaEnCasa">12</span></h4>
+        <h4>Pa&iacute;s: Cuba</h4>
+        <button onclick="window.location.href='http://qnecesitas.nat.cu/YaEnCasa/YaEnCasa.apk'">Descargar</button>
+      </div>
+
+
+      <div class="sectTrabFinalizados_card">
+        <div class="sectTrabFinalizados_card_imgs">
+          <img src="img/app_ps1.jpg" alt="foto de proyecto"/>
+          <img src="img/app_ps2.jpg" alt="foto de proyecto"/>
+        </div>
+        <p>"PuertoShop", aplicaci&oacute;n para compras en l&iacute;nea, ofrece entregas a domicilio, permite a los clientes hacer pedidos desde su hogar. Una herramienta &uacute;til que facilita el proceso de compra y entrega.</p>
+        <h4>Precio: <span id="PuertoShopPrecio">30000</span> <span class="tipo-moneda">CUP</span></h4>
+        <h4>N&uacute;mero de pantallas: <span id="PuertoShop">10</span></h4>
+        <h4>Pa&iacute;s: Cuba</h4>
+        <button onclick="window.location.href='http://qnecesitas.nat.cu/PuertoShop/PuertoShop.v1.0.apk'">Descargar</button>
+      </div>
+
+      <div class="sectTrabFinalizados_card">
+        <div class="sectTrabFinalizados_card_imgs">
+          <img src="img/app_sg1.jpg" alt="foto de proyecto"/>
+          <img src="img/app_sg2.jpg" alt="foto de proyecto"/>
+        </div>
+        <p>La aplicaci&oacute;n "Sandwich Gourmet" fue desarrollada para la cafeter&iacute;a del mismo nombre, permitiendo a los clientes personalizar sus órdenes de s&aacute;ndwiches y recibir la entrega en su hogar.</p>
+        <h4>Precio: <span id="SandwichGourmetPrecio">39000</span>  <span class="tipo-moneda">CUP</span></h4>
+        <h4>N&uacute;mero de pantallas: <span id="SandwichGourmet">13</span></h4>
+        <h4>Pa&iacute;s: Cuba</h4>
+        <button onclick="window.location.href='http://qnecesitas.nat.cu/SandwichGourmet/SandwichGourmet_v4.1.apk'">Descargar</button>
+      </div>
+
+      <div class="sectTrabFinalizados_card">
+        <div class="sectTrabFinalizados_card_imgs">
+          <img src="img/app_dc1.jpg" alt="foto de proyecto"/>
+          <img src="img/app_dc2.jpg" alt="foto de proyecto"/>
+        </div>
+        <p>"DCero" fue desarrollada para la Mipyme del mismo nombre, con el fin de facilitar la venta y distribuci&oacute;n de sus productos en La Habana, utilizando un enfoque moderno y actualizado.</p>
+        <h4>Precio: <span id="TiendaDCeroPrecio">15000</span> <span class="tipo-moneda">CUP</span></h4>
+        <h4>N&uacute;mero de pantallas: <span id="TiendaDCero">5</span></h4>
+        <h4>Pa&iacute;s: Cuba</h4>
+        <button onclick="window.location.href='http://qnecesitas.nat.cu/DCeros/TiendaDCero_v1.0.apk'">Descargar</button>
+      </div>
+
+      <div class="sectTrabFinalizados_card">
+        <div class="sectTrabFinalizados_card_imgs">
+          <img src="img/app8.png" alt="foto de proyecto"/>
+          <img src="img/app10.png" alt="foto de proyecto"/>
+        </div>
+        <p>Ha sido desarrolada para la empresa NovaTaxi, ofreciendo una variedad de funcionalidades que permiten a los usuarios realizar sus viajes de manera m&aacute;s f&aacute;cil y c&oacute;moda.</p>
+        <h4>Precio: <span id="NovaTaxiPrecio"> 51000 </span><span class="tipo-moneda">CUP</span></h4>
+        <h4>N&uacute;mero de pantallas: <span id="NovaTaxi">12</span></h4>
+        <h4>Pa&iacute;s: Cuba</h4>
+        <button onclick="window.location.href='http://qnecesitas.nat.cu/NovaTaxi/NovaTaxi_1.5.apk'">Descargar</button>
+      </div>
+
+      <div class="sectTrabFinalizados_card">
+        <div class="sectTrabFinalizados_card_imgs">
+          <img src="img/app4.png" alt="foto de proyecto"/>
+          <img src="img/app12.png" alt="foto de proyecto"/>
+        </div>
+        <p>"Ret&eacute;n Inventario" es una aplicaci&oacute;n, con caracter&iacute;sticas innovadoras desarrollada espec&iacute;ficamente para hacer el inventario de la tienda Ret&eacute;n de manera m&aacute;s eficiente y precisa.</p>
+        <h4>Precio: <span id="RetenInventarioPrecio">60000</span> <span class="tipo-moneda">CUP</span></h4>
+        <h4>N&uacute;mero de pantallas: <span id="RetenInventario">20</span></h4>
+        <h4>Pa&iacute;s: Cuba</h4>
+        <button onclick="window.location.href='http://qnecesitas.nat.cu/ElReten/El_Reten_Inventario.v2.apk'">Descargar</button>
+      </div>
+
+      <div class="sectTrabFinalizados_card">
+        <div class="sectTrabFinalizados_card_imgs">
+          <img src="img/app2.png" alt="foto de proyecto"/>
+          <img src="img/app1.png" alt="foto de proyecto"/>
+        </div>
+        <p>"Control de Bombas" es una aplicaci&oacute;n moderna y eficiente para el servicio de reparaci&oacute;n y limpieza de bombas de aceite en El Ret&eacute;n. Los clientes pueden hacer solicitudes a través de ella para una mayor comodidad.</p>
+        <h4>Precio: <span id="ControlBombasPrecio">18000</span> <span class="tipo-moneda">CUP</span></h4>
+        <h4>N&uacute;mero de pantallas: <span id="ControlBombas">6</span></h4>
+        <h4>Pa&iacute;s: Cuba</h4>
+        <button onclick="window.location.href='http://qnecesitas.nat.cu/ElReten/El_Reten_Bombas.v3.apk'">Descargar</button>
+      </div>
+
+      <div class="sectTrabFinalizados_card">
+        <div class="sectTrabFinalizados_card_imgs">
+          <img src="img/app7.png" alt="foto de proyecto"/>
+          <img src="img/app7a.png" alt="foto de proyecto"/>
+        </div>
+        <p>"Ret&eacute;n Retenes" es una tercera aplicaci&oacute;n desarrollada para satisfacer las necesidades de El Ret&eacute;n y su industria, enfocada exclusivamente en la venta de retenes de motocicletas como servicio adicional al negocio. </p>
+        <h4>Precio: <span id="RetenRetenesPrecio">36000</span> <span class="tipo-moneda">CUP</span></h4>
+        <h4>N&uacute;mero de pantallas: <span id="RetenRetenes">12</span></h4>
+        <h4>Pa&iacute;s: Cuba</h4>
+        <button onclick="window.location.href='http://qnecesitas.nat.cu/ElReten/El_Reten_Retenes.v2.3.apk'">Descargar</button>
+      </div>
+
+
+
+
+    </div>
+  </section>
+
+
+
+
+
+
+  <!--Footer-->
+  <footer id="devAndroid_footer">
+    <div class="footer_indice">
+      <h3>&Iacute;ndice</h3>
+      <a class="nav_web" href="index.html">Inicio</a>
+      <button class="btnOpenAndroid">Android</button>
+      <button class="btnOpenWeb">Web</button>
+      <button class="btnOpenPc">PC</button>
+      <a href="index.html#inicio_diseno">Dise&ntilde;o</a>
+      <a href="technicalLanguage.html">Lenguaje t&eacute;cnico</a>
+    </div>
+
+    <div class="footer_contacto" >
+      <h3>Contactos</h3>
+      <div>
+        <img src="img/faceb_icon.svg" alt="icono de facebook">
+        <a href="https://www.facebook.com/qnecesitas.paginaprincipal">QNecesitas P&aacute;ginaPrincipal</a>
+      </div>
+      <div>
+        <img src="img/wapp_icon.svg" alt="icono de wapp">
+        <a href="https://api.whatsapp.com/send?phone=55759386">+5355759386</a>
+      </div>
+      <div>
+        <img src="img/mail_icon.svg" alt="icono de email">
+        <a href="mailto:qnecesitas.desarrollo@gmail.com">qnecesitas.desarrollo@gmail.com</a>
+      </div>
+      <div>
+        <img src="img/call_icon.svg" alt="icono de telefono">
+        <a href="tel:+5355759386">+5355759386</a>
+      </div>
+      <div>
+        <img src="img/instagramwhite.svg" alt="icono de instagram">
+        <a href="https://instagram.com/qnecesitas_?igshi=OGQ5ZDc2ODk2ZA==">qnecesitas_</a>
+      </div>
+    </div >
+
+
+    <div class="footer_icono">
+      <img src="icon_text.png">
+    </div>
+  </footer>
+
+
+
+
+
+
+  <script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="./js/bootstrap.js"></script>
+  <script src="./js/devAndroid.js"></script>
+  <script src="php/ColocarVistaAndroid.php"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
