@@ -9,16 +9,25 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
 
+    env:
+      SERVER_IP: ${{ secrets.SERVER_IP || '181.225.253.250' }}
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Set up SSH key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.DEPLOY_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H ${{ env.SERVER_IP }} >> ~/.ssh/known_hosts
+
       - name: Deploy via rsync
-        uses: burnett01/rsync-deployments@7.0.1
-        with:
-          switches: -avz --delete --exclude='.env' --exclude='.git' --exclude='node_modules'
-          path: ./
-          remote_path: /var/www/html/QNecesitas/src/
-          remote_host: 181.225.253.250
-          remote_user: cloud
-          remote_key: ${{ secrets.DEPLOY_KEY }}
+        run: |
+          rsync -avz --delete \
+            --exclude='.env' \
+            --exclude='.git' \
+            --exclude='node_modules' \
+            -e "ssh -i ~/.ssh/id_ed25519" \
+            ./ deploy@${{ env.SERVER_IP }}:/var/www/html/QNecesitas/src/
