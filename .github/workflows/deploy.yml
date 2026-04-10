@@ -1,0 +1,24 @@
+name: Deploy to VPS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Deploy via rsync
+        uses: burnett01/rsync-deployments@7.0.1
+        with:
+          switches: -avz --delete --exclude='.env' --exclude='.git' --exclude='node_modules'
+          path: ./
+          remote_path: /var/www/html/QNecesitas/src/
+          remote_host: 181.225.253.250
+          remote_user: cloud
+          remote_key: ${{ secrets.DEPLOY_KEY }}
