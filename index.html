@@ -1,304 +1,543 @@
- <!doctype html>
+<!doctype html>
 <html class="no-js" lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Empresa de desarrollo de software QNecesitas</title>
+    <meta
+      name="description"
+      content="Empresa de desarrollo de software. Especializados en aplicaciones Android, web y de escritorio, con diseño creativo, funcionalidad excepcional y experiencia de usuario destacada. Creamos logotipos profesionales para representar la identidad de su marca. Ofrecemos soluciones inform&aacute;tica eficientes y personalizadas."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8">
-  <title>Empresa de desarrollo de software QNecesitas</title>
-  <meta name="description" content="Empresa de desarrollo de software. Especializados en aplicaciones Android, web y de escritorio, con diseño creativo, funcionalidad excepcional y experiencia de usuario destacada. Creamos logotipos profesionales para representar la identidad de su marca. Ofrecemos soluciones inform&aacute;tica eficientes y personalizadas.">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      property="og:title"
+      content="Empresa de desarrollo de software QNecesitas"
+    />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://qnecesitas.nat.cu" />
+    <meta property="og:image" content="" />
+    <meta
+      property="og:description"
+      content="Empresa de desarrollo de software. Especializados en aplicaciones Android, web y de escritorio, con diseño creativo, funcionalidad excepcional y experiencia de usuario destacada. Creamos logotipos profesionales para representar la identidad de su marca. Ofrecemos soluciones inform&aacute;tica eficientes y personalizadas."
+    />
+    <meta name="robots" />
+    <meta
+      property="og:site_name"
+      content="Empresa de desarrollo de software QNecesitas"
+    />
 
-  <meta property="og:title" content="Empresa de desarrollo de software QNecesitas">
-  <meta property="og:type" content="article">
-  <meta property="og:url" content="https://qnecesitas.nat.cu">
-  <meta property="og:image" content="">
-  <meta property="og:description" content="Empresa de desarrollo de software. Especializados en aplicaciones Android, web y de escritorio, con diseño creativo, funcionalidad excepcional y experiencia de usuario destacada. Creamos logotipos profesionales para representar la identidad de su marca. Ofrecemos soluciones inform&aacute;tica eficientes y personalizadas.">
-  <meta name="robots">
-  <meta property="og:site_name" content="Empresa de desarrollo de software QNecesitas">
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Place favicon.ico in the root directory -->
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <meta name="theme-color" content="#fafafa" />
+  </head>
 
-  <meta name="theme-color" content="#fafafa">
-
-</head>
-
-<body>
-
-<!--Navigation bar PC------------------------------------------------------------------------->
-<nav>
-  <div>
-    <img src="icon.png" alt="Logo de la empresa">
-    <h2 class="nav_titulo">QNecesitas</h2>
-  </div>
-  <div>
-    <a class="nav_web" href="index.html">Inicio</a>
-    <button class="btnOpenAndroid">Android</button>
-    <button class="btnOpenWeb">Web</button>
-    <button class="btnOpenPc">PC</button>
-    <a href="index.html#inicio_diseno">Dise&ntilde;o</a>
-    <a href="technicalLanguage.html">Lenguaje t&eacute;cnico</a>
-  </div>
-  <img class="nav_bar_icon" type="button"
-       data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavigation"
-       src="img/menu_mobile.svg" aria-controls="offcanvasNavigation">
-</nav>
-
-
-
-
-<!--Navigation Bar Cell-->
-<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavigation" aria-labelledby="offcanvasNavigationLabel">
-  <div class="offcanvas-header">
-    <img class="nav_logo" src="icon.png" alt="Logo de la empresa">
-    <h4>QNecesitas</h4>
-    <img type="button" class="my_btn-close" data-bs-dismiss="offcanvas" aria-label="Close" src="img/close_mobile.svg">
-  </div>
-  <hr/>
-  <div class="offcanvas-body">
-    <ul class="ul-offc">
-      <li class="li-first-canvas"><a class="nav_web" href="index.html">Inicio</a></li>
-      <li class="btnOpenAndroid"><button>Android</button></li>
-      <li class="btnOpenWeb"><button>Web</button></li>
-      <li class="btnOpenPc"><button>PC</button></li>
-      <li><a href="index.html#inicio_diseno">Dise&ntilde;o</a></li>
-      <li><a href="technicalLanguage.html">Lenguaje t&eacute;cnico</a></li>
-    </ul>
-    <div class="navigationBar_socialMedia">
-      <img class="nav_icon" src="img/faceb_icon.svg" alt="Facebook icon" onclick="location.href='https://www.facebook.com/qnecesitas.paginaprincipal'">
-      <img class="nav_icon" src="img/wapp_icon.svg" alt="WhatsApp icon" onclick="location.href='https://api.whatsapp.com/send?phone=55759386'">
-      <img class="nav_icon" src="img/mail_icon.svg" alt="Email icon" onclick="location.href='mailto:qnecesitas.desarrollo@gmail.com'">
-      <img class="nav_icon" src="img/call_icon.svg" alt="Call icon" onclick="location.href='tel:+5355759386'">
-      <img class="nav_icon" src="./img/instagramwhite.svg" alt="intsgramIcon" onclick="location.href='https://instagram.com/qnecesitas_?igshi=OGQ5ZDc2ODk2ZA=='">
-    </div>
-  </div>
-</div>
-
-
-
-
-
-<header>
-  <div id="carouselHeaderDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <div class="carousel-indicators-items">
-        <button type="button" data-bs-target="#carouselHeaderDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselHeaderDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselHeaderDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#carouselHeaderDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  <body>
+    <!--Navigation bar PC------------------------------------------------------------------------->
+    <nav>
+      <div>
+        <img src="icon.png" alt="Logo de la empresa" />
+        <h2 class="nav_titulo">QNecesitas</h2>
       </div>
-      <div class="carousel-indicators-changecolor">
-        <img src="img/intercambio.png" alt="intercambio de color">
+      <div>
+        <a class="nav_web" href="index.html">Inicio</a>
+        <button class="btnOpenAndroid">Android</button>
+        <button class="btnOpenWeb">Web</button>
+        <button class="btnOpenPc">PC</button>
+        <a href="index.html#inicio_diseno">Dise&ntilde;o</a>
+        <a href="technicalLanguage.html">Lenguaje t&eacute;cnico</a>
       </div>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="5000">
-        <img src="img/header4_pc.png" class="d-block w-100" alt="Imagen empresarial">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Haga visible su emprendimiento ante el mundo, con&oacute;zcase m&aacute;s, venda m&aacute;s</h5>
+      <img
+        class="nav_bar_icon"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavigation"
+        src="img/menu_mobile.svg"
+        aria-controls="offcanvasNavigation"
+      />
+    </nav>
+
+    <!--Navigation Bar Cell-->
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasNavigation"
+      aria-labelledby="offcanvasNavigationLabel"
+    >
+      <div class="offcanvas-header">
+        <img class="nav_logo" src="icon.png" alt="Logo de la empresa" />
+        <h4>QNecesitas</h4>
+        <img
+          type="button"
+          class="my_btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+          src="img/close_mobile.svg"
+        />
+      </div>
+      <hr />
+      <div class="offcanvas-body">
+        <ul class="ul-offc">
+          <li class="li-first-canvas">
+            <a class="nav_web" href="index.html">Inicio</a>
+          </li>
+          <li class="btnOpenAndroid"><button>Android</button></li>
+          <li class="btnOpenWeb"><button>Web</button></li>
+          <li class="btnOpenPc"><button>PC</button></li>
+          <li><a href="index.html#inicio_diseno">Dise&ntilde;o</a></li>
+          <li><a href="technicalLanguage.html">Lenguaje t&eacute;cnico</a></li>
+        </ul>
+        <div class="navigationBar_socialMedia">
+          <img
+            class="nav_icon"
+            src="img/faceb_icon.svg"
+            alt="Facebook icon"
+            onclick="
+              location.href =
+                'https://www.facebook.com/qnecesitas.paginaprincipal'
+            "
+          />
+          <img
+            class="nav_icon"
+            src="img/wapp_icon.svg"
+            alt="WhatsApp icon"
+            onclick="
+              location.href = 'https://api.whatsapp.com/send?phone=55759386'
+            "
+          />
+          <img
+            class="nav_icon"
+            src="img/mail_icon.svg"
+            alt="Email icon"
+            onclick="location.href = 'mailto:qnecesitas.desarrollo@gmail.com'"
+          />
+          <img
+            class="nav_icon"
+            src="img/call_icon.svg"
+            alt="Call icon"
+            onclick="location.href = 'tel:+5355759386'"
+          />
+          <img
+            class="nav_icon"
+            src="./img/instagramwhite.svg"
+            alt="intsgramIcon"
+            onclick="
+              location.href =
+                'https://instagram.com/qnecesitas_?igshi=OGQ5ZDc2ODk2ZA=='
+            "
+          />
         </div>
       </div>
-      <div class="carousel-item" data-bs-interval="5000">
-        <img src="img/header2_pc.png" class="d-block w-100" alt="Imagen empresarial">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Este sitio web mantiene actualizado nuestros precios y no es por presumir, pero estos son los mejores del mercado</h5>
+    </div>
+
+    <header>
+      <div
+        id="carouselHeaderDark"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <div class="carousel-indicators-items">
+            <button
+              type="button"
+              data-bs-target="#carouselHeaderDark"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselHeaderDark"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselHeaderDark"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselHeaderDark"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <div class="carousel-indicators-changecolor">
+            <img src="img/intercambio.png" alt="intercambio de color" />
+          </div>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img
+              src="img/header4_pc.png"
+              class="d-block w-100"
+              alt="Imagen empresarial"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>
+                Haga visible su emprendimiento ante el mundo, con&oacute;zcase
+                m&aacute;s, venda m&aacute;s
+              </h5>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img
+              src="img/header2_pc.png"
+              class="d-block w-100"
+              alt="Imagen empresarial"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>
+                Este sitio web mantiene actualizado nuestros precios y no es por
+                presumir, pero estos son los mejores del mercado
+              </h5>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img
+              src="img/header3_pc.png"
+              class="d-block w-100"
+              alt="Imagen empresarial"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>
+                Desde Cuba hacia el mundo, nuestros servicios traspasan
+                fronteras para ofrecerte excelencia donde sea que estés
+              </h5>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img
+              src="img/header1_pc.png"
+              class="d-block w-100"
+              alt="Imagen empresarial"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>
+                Nuestro equipo se dedica incansablemente a buscar la
+                perfecci&oacute;n y ofrecer la m&aacute;xima
+                personalizaci&oacute;n en cada proyecto que emprendemos
+              </h5>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselHeaderDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselHeaderDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+
+    <!--Explicacion-->
+    <section class="sectExplication">
+      <h1>Desarrollo de software</h1>
+      <p>
+        Somos una empresa de desarrollo de software. Especializados en
+        aplicaciones Android, web y de escritorio, con diseño creativo,
+        funcionalidad excepcional y experiencia de usuario destacada. Creamos
+        logotipos profesionales para representar la identidad de su marca.
+        Ofrecemos soluciones inform&aacute;tica eficientes y personalizadas.
+        Trabajamos en estrecha colaboración con nuestros clientes para entender
+        sus necesidades y proporcionarles resultados acordes a sus expectativas.
+        ¡Cont&aacute;ctenos hoy mismo para llevar su negocio al siguiente nivel
+        con nuestras soluciones de software innovadoras y servicios de
+        desarrollo de alta calidad!"
+      </p>
+    </section>
+
+    <!--Cards-------------------------------------------------------------------------------------------->
+    <section class="sectCards">
+      <!--Aplicaciones Android-->
+      <div class="cardM">
+        <button
+          class="card_btnPhone"
+          onclick="window.location.href = 'DevAndroid.html'"
+        >
+          Ver m&aacute;s
+        </button>
+        <img
+          class="card_image"
+          src="img/card_diseno_android.jpg"
+          alt="Imagen referente al desarrollo Android"
+        />
+        <div class="card_titulo_desc">
+          <div class="card_titulo">
+            <img
+              class="card_icon"
+              src="img/icon_android.png"
+              alt="Icono de desarrollo Android"
+            />
+            <h2>Desarrollo de Aplicaciones Android</h2>
+          </div>
+          <p>
+            Descubre el poder de nuestras aplicaciones Android, diseñadas para
+            resolver necesidades espec&iacute;ficas. Desde aplicaciones de taxis
+            hasta aplicaciones de entrega a domicilio de productos, nuestras
+            soluciones personalizadas transforman la experiencia. Conozca todos
+            los detalles, precios y c&oacute;mo podemos ayudar a potenciar tu
+            negocio
+          </p>
+          <button class="card_btnPC btnOpenAndroid">Ver m&aacute;s</button>
         </div>
       </div>
-      <div class="carousel-item" data-bs-interval="5000">
-        <img src="img/header3_pc.png" class="d-block w-100" alt="Imagen empresarial">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Desde Cuba hacia el mundo, nuestros servicios traspasan fronteras para ofrecerte excelencia donde sea que estés</h5>
+
+      <!--Sitios web-->
+      <div class="cardM">
+        <button
+          class="card_btnPhone"
+          onclick="window.location.href = 'DevWeb.html'"
+        >
+          Ver m&aacute;s
+        </button>
+        <img
+          class="card_image"
+          src="img/card_diseno_web.jpg"
+          alt="Imagen referente a Sitios Web"
+        />
+        <div class="card_titulo_desc">
+          <div class="card_titulo">
+            <img class="card_icon" src="img/icon_web.png" alt="Icono de web" />
+            <h2>Desarrollo de Aplicaciones Web</h2>
+          </div>
+          <p>
+            Buscamos que cada negocio tenga su espacio en internet. Creamos
+            sitios web que destacan la informaci&oacute;n empresarial, detalles
+            de contacto, y muestran trabajos realizados. Descubre cómo un sitio
+            web puede impulsar tu presencia en l&iacute;nea. Explore nuestros
+            precios, beneficios y detalles sobre c&oacute;mo funcionan nuestros
+            servicios.
+          </p>
+          <button class="card_btnPC btnOpenWeb">Ver m&aacute;s</button>
         </div>
       </div>
-      <div class="carousel-item" data-bs-interval="5000">
-        <img src="img/header1_pc.png" class="d-block w-100" alt="Imagen empresarial">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Nuestro equipo se dedica incansablemente a buscar la perfecci&oacute;n y ofrecer la m&aacute;xima personalizaci&oacute;n en cada proyecto que emprendemos</h5>
+
+      <!--Aplicaciones pc-->
+      <div class="cardM">
+        <button
+          class="card_btnPhone"
+          onclick="window.location.href = 'DevPC.html'"
+        >
+          Ver m&aacute;s
+        </button>
+        <img
+          class="card_image"
+          src="img/card_pc.jpg"
+          alt="Imagen referente a aplicaciones de PC"
+        />
+        <div class="card_titulo_desc">
+          <div class="card_titulo">
+            <img
+              class="card_icon"
+              src="img/icon_web.png"
+              alt="Icono de desarrollo para PC"
+            />
+            <h2>Desarrollo de Aplicaciones de Escritorio</h2>
+          </div>
+          <p>
+            Desarrollamos aplicaciones de escritorio para Windows, enfocadas en
+            modernizar las estructuras empresariales. Desde aplicaciones de
+            gesti&oacute;n hasta estad&iacute;sticas, nuestras soluciones
+            personalizadas est&aacute;n diseñadas para optimizar tu negocio.
+            Conozca m&aacute;s sobre nuestros precios y servicios en esta
+            &aacute;rea.
+          </p>
+          <button class="card_btnPC btnOpenPc">Ver m&aacute;s</button>
         </div>
       </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselHeaderDark" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselHeaderDark" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-</header>
 
-
-
-
-
-<!--Explicacion-->
-<section class="sectExplication">
-
-  <h1>Desarrollo de software</h1>
-  <p>Somos una empresa de desarrollo de software. Especializados en aplicaciones Android, web y de escritorio, con diseño creativo, funcionalidad excepcional y experiencia de usuario destacada. Creamos logotipos profesionales para representar la identidad de su marca. Ofrecemos soluciones inform&aacute;tica eficientes y personalizadas. Trabajamos en estrecha colaboración con nuestros clientes para entender sus necesidades y proporcionarles resultados acordes a sus expectativas. ¡Cont&aacute;ctenos hoy mismo para llevar su negocio al siguiente nivel con nuestras soluciones de software innovadoras y servicios de desarrollo de alta calidad!"</p>
-
-</section>
-
-
-  <!--Cards-------------------------------------------------------------------------------------------->
-  <section class="sectCards">
-
-    <!--Aplicaciones Android-->
-    <div class="cardM">
-      <button class="card_btnPhone" onclick="window.location.href='DevAndroid.html'">Ver m&aacute;s</button>
-      <img class="card_image" src="img/card_diseno_android.jpg" alt="Imagen referente al desarrollo Android">
-      <div class="card_titulo_desc">
-        <div class="card_titulo">
-          <img class="card_icon" src="img/icon_android.png" alt="Icono de desarrollo Android">
-          <h2>Desarrollo de Aplicaciones Android</h2>
+      <!--Catarsis Design-->
+      <div id="inicio_diseno" class="cardM">
+        <img
+          class="card_image"
+          src="img/card_diseno_grafico.jpg"
+          alt="Imagen referente al diseno grafico"
+        />
+        <div class="card_titulo_desc">
+          <div class="card_titulo">
+            <img
+              class="card_icon"
+              src="img/icon_design.png"
+              alt="Icono de diseno grafico"
+            />
+            <h2>Dise&ntilde;o gr&aacute;fico</h2>
+          </div>
+          <p>
+            Colaboramos estrechamente con el talentoso equipo de diseño
+            gr&aacute;fico Catarsis. Ofrecen servicios profesionales y
+            est&eacute;ticos, incluyendo la creaci&oacute;n de logos, tarjetas
+            de presentaci&oacute;n, fotos promocionales y m&aacute;s. Para
+            contactar con ellos, simplemente comun&iacute;cate con nosotros.
+            Descubra c&oacute;mo pueden elevar la imagen de tu negocio.
+          </p>
         </div>
-        <p>Descubre el poder de nuestras aplicaciones Android, diseñadas para resolver necesidades espec&iacute;ficas. Desde aplicaciones de taxis hasta aplicaciones de entrega a domicilio de productos, nuestras soluciones personalizadas transforman la experiencia. Conozca todos los detalles, precios y c&oacute;mo podemos ayudar a potenciar tu negocio</p>
-        <button class="card_btnPC btnOpenAndroid">Ver m&aacute;s</button>
       </div>
-    </div>
+    </section>
 
-    <!--Sitios web-->
-    <div  class="cardM">
-      <button class="card_btnPhone" onclick="window.location.href='DevWeb.html'">Ver m&aacute;s</button>
-      <img class="card_image" src="img/card_diseno_web.jpg" alt="Imagen referente a Sitios Web">
-      <div class="card_titulo_desc">
-        <div class="card_titulo">
-          <img class="card_icon" src="img/icon_web.png" alt="Icono de web">
-          <h2>Desarrollo de Aplicaciones Web</h2>
+    <section class="sectSeoLocal">
+      <h2>Rankings locales</h2>
+      <p>Comparativas locales de empresas de desarrollo de software.</p>
+      <div class="sectSeoLocal_links">
+        <a href="LocalSEOCuba.html"
+          >Top 5 Empresas de Desarrollo de Software en Cuba</a
+        >
+        <a href="LocalSEOHabana.html">
+          Top 5 Empresas de Desarrollo de Software en La Habana
+        </a>
+      </div>
+    </section>
+
+    <section class="sectTrabFinalizados">
+      <h2>Ejemplos de cada tipo de trabajo</h2>
+      <div class="sectTrabFinalizados_cardsZone">
+        <div class="sectTrabFinalizados_card">
+          <div class="sectTrabFinalizados_card_imgs">
+            <img src="img/sitio_transpv1.jpg" alt="foto de proyecto" />
+            <img src="img/sitio_transpv2.jpg" alt="foto de proyecto" />
+          </div>
+          <p>
+            Sitio web de 8 p&aacute;ginas creado para la Mipyme Transportaciones
+            V&aacute;zquez. Este sitio muestra, entre otras cosas, sus
+            veh&iacute;culos disponibles y los diferentes servicios que presta.
+          </p>
+          <button
+            onclick="
+              window.location.href =
+                'http://qnecesitas.nat.cu/TransportacionesVazquez.html'
+            "
+          >
+            Ir al sitio
+          </button>
         </div>
-        <p>Buscamos que cada negocio tenga su espacio en internet. Creamos sitios web que destacan la informaci&oacute;n empresarial, detalles de contacto, y muestran trabajos realizados. Descubre cómo un sitio web puede impulsar tu presencia en l&iacute;nea. Explore nuestros precios, beneficios y detalles sobre c&oacute;mo funcionan nuestros servicios.</p>
-        <button  class="card_btnPC btnOpenWeb">Ver m&aacute;s</button>
-      </div>
-    </div>
 
-    <!--Aplicaciones pc-->
-    <div  class="cardM">
-      <button class="card_btnPhone" onclick="window.location.href='DevPC.html'">Ver m&aacute;s</button>
-      <img class="card_image" src="img/card_pc.jpg" alt="Imagen referente a aplicaciones de PC">
-      <div class="card_titulo_desc">
-        <div class="card_titulo">
-          <img class="card_icon" src="img/icon_web.png" alt="Icono de desarrollo para PC">
-          <h2>Desarrollo de Aplicaciones de Escritorio</h2>
+        <div class="sectTrabFinalizados_card">
+          <div class="sectTrabFinalizados_card_imgs">
+            <img src="img/app_sg1.jpg" alt="foto de proyecto" />
+            <img src="img/app_sg2.jpg" alt="foto de proyecto" />
+          </div>
+          <p>
+            Aplicaci&oacute;n Android realizada para la cafeter&iacute;a
+            Sandwich Gourmet. Esta permite que sus clientes puedan personalizar
+            un sandwich con los ingredientes deseados y que sea enviado hasta su
+            hogar.
+          </p>
+          <button
+            onclick="
+              window.location.href =
+                'http://qnecesitas.nat.cu/SandwichGourmet/SandwichGourmet_v4.1.apk'
+            "
+          >
+            Descargar
+          </button>
         </div>
-        <p>Desarrollamos aplicaciones de escritorio para Windows, enfocadas en modernizar las estructuras empresariales. Desde aplicaciones de gesti&oacute;n hasta estad&iacute;sticas, nuestras soluciones personalizadas est&aacute;n diseñadas para optimizar tu negocio. Conozca m&aacute;s sobre nuestros precios y servicios en esta &aacute;rea.</p>
-        <button class="card_btnPC btnOpenPc">Ver m&aacute;s</button>
-      </div>
-    </div>
 
-    <!--Catarsis Design-->
-    <div  id="inicio_diseno" class="cardM">
-      <img class="card_image" src="img/card_diseno_grafico.jpg" alt="Imagen referente al diseno grafico">
-      <div class="card_titulo_desc">
-        <div class="card_titulo">
-          <img class="card_icon" src="img/icon_design.png" alt="Icono de diseno grafico">
-          <h2>Dise&ntilde;o gr&aacute;fico</h2>
+        <div class="sectTrabFinalizados_card last-card">
+          <img src="img/logo_transpv.png" alt="foto de proyecto" />
+          <p>
+            Logo creado para la Mipyme Transportaciones V&aacute;zquez. Este
+            refleja un dise&ntilde;o cl&aacute;sico y a la vez elegante,
+            caracter&iacute;sticas que describen perfectamente a dicha empresa
+            de transporte.
+          </p>
+          <button onclick="window.location.href = 'css/img/logo_transpv.png'">
+            Ver ampliado
+          </button>
         </div>
-        <p>Colaboramos estrechamente con el talentoso equipo de diseño gr&aacute;fico Catarsis. Ofrecen servicios profesionales y est&eacute;ticos, incluyendo la creaci&oacute;n de logos, tarjetas de presentaci&oacute;n, fotos promocionales y m&aacute;s. Para contactar con ellos, simplemente comun&iacute;cate con nosotros. Descubra c&oacute;mo pueden elevar la imagen de tu negocio.</p>
       </div>
-    </div>
-  </section>
+    </section>
 
+    <footer id="devPC_footer">
+      <div class="footer_indice">
+        <h3>&Iacute;ndice</h3>
+        <a class="nav_web" href="index.html">Inicio</a>
+        <button class="btnOpenAndroid">Android</button>
+        <button class="btnOpenWeb">Web</button>
+        <button class="btnOpenPc">PC</button>
+        <a href="index.html#inicio_diseno">Dise&ntilde;o</a>
+        <a href="technicalLanguage.html">Lenguaje t&eacute;cnico</a>
+      </div>
 
-
-
-
-  <section class="sectTrabFinalizados">
-    <h2>Ejemplos de cada tipo de trabajo</h2>
-    <div class="sectTrabFinalizados_cardsZone">
-
-      <div class="sectTrabFinalizados_card">
-        <div class="sectTrabFinalizados_card_imgs">
-          <img src="img/sitio_transpv1.jpg" alt="foto de proyecto"/>
-          <img src="img/sitio_transpv2.jpg" alt="foto de proyecto"/>
+      <div class="footer_contacto">
+        <h3>Contactos</h3>
+        <div>
+          <img src="img/faceb_icon.svg" alt="icono de facebook" />
+          <a href="https://www.facebook.com/qnecesitas.paginaprincipal"
+            >QNecesitas P&aacute;ginaPrincipal</a
+          >
         </div>
-        <p>Sitio web de 8 p&aacute;ginas creado para la Mipyme Transportaciones V&aacute;zquez. Este sitio muestra, entre otras cosas, sus veh&iacute;culos disponibles y los diferentes servicios que presta.</p>
-        <button onclick="window.location.href='http://qnecesitas.nat.cu/TransportacionesVazquez.html'">Ir al sitio</button>
-      </div>
-
-      <div class="sectTrabFinalizados_card">
-        <div class="sectTrabFinalizados_card_imgs">
-          <img src="img/app_sg1.jpg" alt="foto de proyecto"/>
-          <img src="img/app_sg2.jpg" alt="foto de proyecto"/>
+        <div>
+          <img src="img/wapp_icon.svg" alt="icono de wapp" />
+          <a href="https://api.whatsapp.com/send?phone=55759386">+5355759386</a>
         </div>
-        <p>Aplicaci&oacute;n Android realizada para la cafeter&iacute;a Sandwich Gourmet. Esta permite que sus clientes puedan personalizar un sandwich con los ingredientes deseados y que sea enviado hasta su hogar.</p>
-        <button onclick="window.location.href='http://qnecesitas.nat.cu/SandwichGourmet/SandwichGourmet_v4.1.apk'">Descargar</button>
+        <div>
+          <img src="img/mail_icon.svg" alt="icono de email" />
+          <a href="mailto:qnecesitas.desarrollo@gmail.com"
+            >qnecesitas.desarrollo@gmail.com</a
+          >
+        </div>
+        <div>
+          <img src="img/call_icon.svg" alt="icono de telefono" />
+          <a href="tel:+5355759386">+5355759386</a>
+        </div>
+        <div>
+          <img src="img/instagramwhite.svg" alt="icono de instagram" />
+          <a href="https://instagram.com/qnecesitas_?igshi=OGQ5ZDc2ODk2ZA=="
+            >qnecesitas_</a
+          >
+        </div>
       </div>
 
-      <div class="sectTrabFinalizados_card last-card">
-        <img src="img/logo_transpv.png" alt="foto de proyecto"/>
-        <p>Logo creado para la Mipyme Transportaciones V&aacute;zquez. Este refleja un dise&ntilde;o cl&aacute;sico y a la vez elegante, caracter&iacute;sticas que describen perfectamente a dicha empresa de transporte.</p>
-        <button onclick="window.location.href='css/img/logo_transpv.png'">Ver ampliado</button>
+      <div class="footer_icono">
+        <img src="icon_text.png" />
       </div>
+    </footer>
 
-    </div>
-  </section>
+    <script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="php/ColocarVistaHome.php"></script>
+    <script src="js/bootstrap.js"></script>
 
-
-
-
-
-<footer id="devPC_footer">
-  <div class="footer_indice">
-    <h3>&Iacute;ndice</h3>
-    <a class="nav_web" href="index.html">Inicio</a>
-    <button class="btnOpenAndroid">Android</button>
-    <button class="btnOpenWeb">Web</button>
-    <button class="btnOpenPc">PC</button>
-    <a href="index.html#inicio_diseno">Dise&ntilde;o</a>
-    <a href="technicalLanguage.html">Lenguaje t&eacute;cnico</a>
-  </div>
-
-  <div class="footer_contacto" >
-    <h3>Contactos</h3>
-    <div>
-      <img src="img/faceb_icon.svg" alt="icono de facebook"> 
-      <a href="https://www.facebook.com/qnecesitas.paginaprincipal">QNecesitas P&aacute;ginaPrincipal</a>
-    </div>
-    <div>
-      <img src="img/wapp_icon.svg" alt="icono de wapp">
-      <a href="https://api.whatsapp.com/send?phone=55759386">+5355759386</a>
-    </div>
-    <div>
-      <img src="img/mail_icon.svg" alt="icono de email">
-      <a href="mailto:qnecesitas.desarrollo@gmail.com">qnecesitas.desarrollo@gmail.com</a>
-    </div>
-    <div>
-      <img src="img/call_icon.svg" alt="icono de telefono">
-      <a href="tel:+5355759386">+5355759386</a>
-    </div>
-    <div>
-      <img src="img/instagramwhite.svg" alt="icono de instagram">
-      <a href="https://instagram.com/qnecesitas_?igshi=OGQ5ZDc2ODk2ZA==">qnecesitas_</a>
-    </div>
-  </div >
-
-  <div class="footer_icono">
-    <img src="icon_text.png">
-  </div>
-</footer>
-
-
-  <script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-  <script src="php/ColocarVistaHome.php"></script>
-  <script src="js/bootstrap.js"></script>
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
-</body>
-
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () {
+        ga.q.push(arguments);
+      };
+      ga.q = [];
+      ga.l = +new Date();
+      ga("create", "UA-XXXXX-Y", "auto");
+      ga("set", "anonymizeIp", true);
+      ga("set", "transport", "beacon");
+      ga("send", "pageview");
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+  </body>
 </html>
